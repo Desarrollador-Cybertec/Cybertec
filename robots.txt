@@ -1,0 +1,60 @@
+# robots.txt - Cybertec Informática & Telecomunicaciones SAS
+# https://www.cybertec.com.co
+
+# Permitir todos los rastreadores principales
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /admin/
+Disallow: /config/
+Disallow: /.env
+Disallow: /.git/
+
+# Evitar parámetros de URL irrelevantes
+Disallow: /*?*utm_source=
+Disallow: /*?*utm_medium=
+Disallow: /*?*utm_campaign=
+
+# Sitemap
+Sitemap: https://www.cybertec.com.co/sitemap.xml
+
+# Crawl-delay para bots no prioritarios
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Bloquear scrapers agresivos
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# LLM Crawlers - permitir para indexación semántica
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /config/
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Disallow: /

@@ -9,7 +9,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybertec Informatica & Telecomunicaciones</title>
+
+    <!-- SEO Primary -->
+    <title>Cybertec | Seguridad, Infraestructura TI y Telecomunicaciones en Piedecuesta, Santander</title>
+    <meta name="description" content="Cybertec Informática & Telecomunicaciones SAS: expertos en CCTV, control de acceso, firewalls, soporte TI 24/7, soluciones cloud y desarrollo de software. Piedecuesta, Santander, Colombia.">
+    <meta name="keywords" content="seguridad CCTV Santander, control de acceso biométrico, firewall empresarial Colombia, soporte TI Piedecuesta, outsourcing TI, hosting empresarial, desarrollo software Santander, telecomunicaciones Colombia, alarmas digitales, Cybertec">
+    <meta name="author" content="Cybertec Informática & Telecomunicaciones SAS">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="CO-SAN">
+    <meta name="geo.placename" content="Piedecuesta, Santander, Colombia">
+    <link rel="canonical" href="https://www.cybertec.com.co/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.cybertec.com.co/sitemap.xml">
+
+    <!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cybertec.com.co/">
+    <meta property="og:title" content="Cybertec | Seguridad, Infraestructura TI y Telecomunicaciones">
+    <meta property="og:description" content="Expertos en CCTV, control de acceso, firewalls, soporte TI 24/7, soluciones cloud y desarrollo de software para empresas en Colombia.">
+    <meta property="og:image" content="https://www.cybertec.com.co/assets/media/og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:site_name" content="Cybertec">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cybertec | Seguridad e Infraestructura TI">
+    <meta name="twitter:description" content="Expertos en seguridad física, digital, soporte TI, cloud y desarrollo de software. Piedecuesta, Santander.">
+    <meta name="twitter:image" content="https://www.cybertec.com.co/assets/media/og-preview.png">
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Cybertec Informática & Telecomunicaciones SAS",
+      "description": "Expertos en seguridad física (CCTV, control de acceso), seguridad digital, soporte TI 24/7, soluciones cloud, infraestructura de redes y desarrollo de software.",
+      "url": "https://www.cybertec.com.co",
+      "telephone": "+573175133375",
+      "email": "ventas@cybertec.com.co",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Piedecuesta",
+        "addressRegion": "Santander",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "6.9986",
+        "longitude": "-73.0577"
+      },
+      "openingHours": "Mo-Fr 08:00-18:00",
+      "sameAs": [
+        "https://co.linkedin.com/in/cybertec-inform%C3%A1tica-y-telecomunicaciones-sas-b62a2a397",
+        "https://www.instagram.com/cybertec.sas",
+        "https://www.facebook.com/share/1GKSJvkgE4/"
+      ],
+      "serviceType": [
+        "Seguridad Física y CCTV",
+        "Seguridad Digital y Firewalls",
+        "Soporte TI y Service Desk",
+        "Infraestructura de Redes",
+        "Soluciones Cloud y Software"
+      ]
+    }
+    </script>
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico">
@@ -91,11 +155,11 @@
         <!-- Glass Background -->
         <div class="absolute inset-0 bg-slate-950/70 backdrop-blur-xl border-b border-white/5"></div>
 
-        <div class="relative container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="relative container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
             
             <!-- Logo con laser line -->
             <a href="#" class="relative group">
-                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(139,92,246,0.5)]">
+                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 sm:h-12 md:h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(139,92,246,0.5)]">
                 <!-- Laser line debajo del logo -->
                 <div class="nav-laser-line w-full mt-1"></div>
             </a>

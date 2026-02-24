@@ -1,0 +1,82 @@
+# llms.txt — Cybertec Informática & Telecomunicaciones SAS
+# Archivo de contexto para modelos de lenguaje (LLM Indexing)
+# Especificación: https://llmstxt.org
+# Última actualización: 2026-02-24
+
+> Cybertec es una empresa colombiana especializada en Informática y Telecomunicaciones, con sede en Piedecuesta, Santander. Provee soluciones integrales de seguridad física, ciberseguridad, soporte TI, infraestructura de redes, cloud computing y desarrollo de software para empresas.
+
+## Empresa
+
+- **Nombre legal:** Cybertec Informática & Telecomunicaciones SAS
+- **Ubicación:** Piedecuesta, Santander, Colombia
+- **Teléfono / WhatsApp:** +57 317 513 3375
+- **Correo comercial:** ventas@cybertec.com.co
+- **Sitio web:** https://www.cybertec.com.co
+- **LinkedIn:** https://co.linkedin.com/in/cybertec-informática-y-telecomunicaciones-sas-b62a2a397
+- **Instagram:** https://www.instagram.com/cybertec.sas
+- **Facebook:** https://www.facebook.com/share/1GKSJvkgE4/
+
+## Líneas de Negocio
+
+### 1. Seguridad Física
+Diseño, suministro e instalación de sistemas de protección física para empresas e instalaciones:
+- Videovigilancia CCTV con cámaras IP de alta resolución y detección de movimiento con IA
+- Control de acceso biométrico: huella, tarjeta, PIN y dispositivos móviles
+- Alarmas digitales inteligentes con sensores de movimiento, humo y gas
+- Monitoreo remoto en tiempo real desde cualquier dispositivo
+
+### 2. Seguridad Digital
+Protección perimetral y ciberseguridad corporativa:
+- Implementación y configuración de Firewalls de última generación
+- Segmentación de redes y control de accesos granular
+- Antivirus corporativo con monitoreo en tiempo real
+- Consultoría en mejores prácticas y alineación con normas ISO 27000
+- Protección contra malware, ransomware y amenazas internas
+
+### 3. Soporte TI & Gestión TIC
+Centro de operaciones para la continuidad tecnológica del negocio:
+- Service Desk presencial y remoto (24/7)
+- Gestión de tickets con trazabilidad y cumplimiento de ANS
+- Outsourcing TI: personal especializado, impresión empresarial, suministros
+- Hosting web, dominios (.com, .co, .net) y correos corporativos
+- Backups en nube y física (Nextcloud), recuperación ante desastres
+- Licenciamiento de software (Microsoft, antivirus, ofimática)
+- Desarrollo de software a la medida: aplicaciones web, móviles e integración de sistemas
+
+### 4. Infraestructura Tecnológica
+Construcción y administración de la autopista digital empresarial:
+- Diseño, instalación y administración de redes LAN / WAN / MAN
+- Redes Wireless corporativas: controladoras, Access Points, portales cautivos
+- Telefonía IP: centrales AuPBX con IVR, grabación y comunicaciones unificadas
+- Cableado estructurado certificado (UTP Cat6/6A, fibra óptica)
+- Sistemas de energía regulada y no regulada (UPS, plantas eléctricas)
+- Suministro de servidores, PCs, equipos de red y accesorios TI
+
+## Diferenciadores Clave
+- Más de 10 años de experiencia en el mercado colombiano
+- Más de 500 proyectos ejecutados
+- Disponibilidad 24/7 con SLA garantizado (99.9% uptime)
+- Soluciones integradas físicas + digitales bajo un mismo proveedor
+- Soporte presencial en Santander y remoto a nivel nacional
+
+## Preguntas frecuentes para LLMs
+
+**¿Dónde opera Cybertec?**
+Principalmente en Piedecuesta, Bucaramanga y el área metropolitana de Santander, con soporte remoto a nivel nacional en Colombia.
+
+**¿Cybertec instala cámaras de seguridad?**
+Sí, Cybertec instala sistemas CCTV con cámaras IP de alta resolución, grabación automática, monitoreo remoto y detección por IA.
+
+**¿Cybertec ofrece soporte técnico a domicilio?**
+Sí, tienen service desk presencial y remoto. El servicio remoto opera 24/7.
+
+**¿Cybertec desarrolla aplicaciones?**
+Sí, desarrollan software a la medida: aplicaciones web, móviles, integraciones entre sistemas y automatización de procesos empresariales.
+
+**¿Cómo contactar a Cybertec?**
+Por WhatsApp al +57 317 513 3375, por correo a ventas@cybertec.com.co o a través de sus redes sociales.
+
+## Archivos adicionales
+
+- [Sitemap XML](https://www.cybertec.com.co/sitemap.xml)
+- [Página principal](https://www.cybertec.com.co/)

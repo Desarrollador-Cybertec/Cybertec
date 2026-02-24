@@ -1,0 +1,104 @@
+# .htaccess - Cybertec Informática & Telecomunicaciones SAS
+# SEO, rendimiento y seguridad
+
+Options -Indexes
+
+# =============================================
+# REDIRIGIR a HTTPS y www
+# =============================================
+RewriteEngine On
+
+# Forzar HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Forzar www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# =============================================
+# URLS LIMPIAS (quitar .php)
+# =============================================
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# =============================================
+# BLOQUEAR ACCESO A DIRECTORIOS SENSIBLES
+# =============================================
+RewriteRule ^admin/?$ - [F,L]
+RewriteRule ^config/?$ - [F,L]
+RewriteRule ^\.env$ - [F,L]
+RewriteRule ^\.git - [F,L]
+
+# =============================================
+# CABECERAS DE SEGURIDAD
+# =============================================
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# =============================================
+# COMPRESIÓN GZIP (mejora Core Web Vitals)
+# =============================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+    AddOutputFilterByType DEFLATE text/javascript application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml application/xml application/xhtml+xml
+    AddOutputFilterByType DEFLATE font/ttf font/otf font/woff font/woff2
+</IfModule>
+
+# =============================================
+# CACHE DE NAVEGADOR (mejora PageSpeed)
+# =============================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Imágenes
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # Fuentes
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+
+    # CSS y JS
+    ExpiresByType text/css "access plus 3 months"
+    ExpiresByType application/javascript "access plus 3 months"
+    ExpiresByType text/javascript "access plus 3 months"
+
+    # HTML y PHP
+    ExpiresByType text/html "access plus 1 day"
+    ExpiresByType application/xhtml+xml "access plus 1 day"
+
+    # Datos
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+</IfModule>
+
+# =============================================
+# PÁGINA DE ERROR PERSONALIZADA
+# =============================================
+ErrorDocument 404 /index.php
+ErrorDocument 403 /index.php
+
+# =============================================
+# MIME TYPES ADICIONALES
+# =============================================
+<IfModule mod_mime.c>
+    AddType font/woff2 .woff2
+    AddType font/woff .woff
+    AddType image/webp .webp
+    AddType application/manifest+json .webmanifest
+</IfModule>
