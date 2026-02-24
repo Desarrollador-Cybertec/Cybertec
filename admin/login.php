@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     <!-- Background decorativo -->
     <div class="fixed inset-0 -z-10">
-        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-[rgb(27,146,208)]/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
         <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-violet-600/20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"></div>
     </div>
     
@@ -92,11 +92,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- Header -->
             <div class="text-center mb-12">
                 <div class="inline-flex items-center gap-3 mb-6">
-                    <div class="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center border border-cyan-500/20">
-                        <i class="fas fa-shield-alt text-cyan-400 text-xl"></i>
+                    <div class="w-12 h-12 bg-[rgb(27,146,208)]/10 rounded-lg flex items-center justify-center border border-[rgb(27,146,208)]/20">
+                        <i class="bi bi-shield-check text-[rgb(27,146,208)] text-lg"></i>
                     </div>
                     <h1 class="text-2xl font-bold font-display tracking-tighter text-white">
-                        CYBER<span class="text-cyan-400">TEC</span>
+                        CYBER<span class="text-[rgb(27,146,208)]">TEC</span>
                     </h1>
                 </div>
                 
@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- Error Message -->
             <?php if (!empty($error)): ?>
             <div class="mb-6 p-4 rounded-lg bg-red-500/10 border border-red-500/30 text-red-300 text-sm">
-                <i class="fas fa-exclamation-circle mr-2"></i>
+                <i class="bi bi-exclamation-circle text-red-500 mr-2"></i>
                 <?php echo htmlspecialchars($error); ?>
             </div>
             <?php endif; ?>
@@ -118,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <!-- Email Input -->
                 <div>
                     <label for="email" class="block text-sm font-medium text-slate-300 mb-2">
-                        <i class="fas fa-envelope mr-2"></i>Email
+                        <i class="bi bi-envelope mr-2 text-[rgb(27,146,208)]"></i>Email
                     </label>
                     <input 
                         type="email" 
@@ -127,14 +127,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         value="<?php echo htmlspecialchars($email); ?>"
                         placeholder="admin@cybertec.local"
                         required
-                        class="w-full px-4 py-3 rounded-lg bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors"
+                        class="w-full px-4 py-3 rounded-lg bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-[rgb(27,146,208)] transition-colors"
                     >
                 </div>
                 
                 <!-- Password Input -->
                 <div>
                     <label for="password" class="block text-sm font-medium text-slate-300 mb-2">
-                        <i class="fas fa-lock mr-2"></i>Contraseña
+                        <i class="bi bi-lock-fill mr-2 text-[rgb(27,146,208)]"></i>Contraseña
                     </label>
                     <input 
                         type="password" 
@@ -142,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         name="password" 
                         placeholder="••••••••"
                         required
-                        class="w-full px-4 py-3 rounded-lg bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors"
+                        class="w-full px-4 py-3 rounded-lg bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-[rgb(27,146,208)] transition-colors"
                     >
                 </div>
                 
@@ -152,7 +152,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         type="checkbox" 
                         id="remember" 
                         name="remember" 
-                        class="w-4 h-4 rounded border-slate-600 text-cyan-500 focus:ring-cyan-500"
+                        class="w-4 h-4 rounded border-slate-600 text-[rgb(27,146,208)] focus:ring-[rgb(27,146,208)]"
                     >
                     <label for="remember" class="ml-2 text-sm text-slate-400">
                         Recuérdame en este dispositivo
@@ -162,9 +162,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <!-- Submit Button -->
                 <button 
                     type="submit" 
-                    class="w-full py-3 rounded-lg bg-cyan-500 text-slate-900 font-bold hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/25 flex items-center justify-center gap-2"
+                    class="w-full py-3 rounded-lg bg-[rgb(27,146,208)] text-slate-900 font-bold hover:bg-[rgb(27,146,208)] transition-colors shadow-lg shadow-[rgb(27,146,208)]/25 flex items-center justify-center gap-2"
                 >
-                    <i class="fas fa-sign-in-alt"></i>
+                    <i class="bi bi-box-arrow-in-right text-lg"></i>
                     Iniciar Sesión
                 </button>
                 
@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <!-- Info Box -->
             <div class="mt-8 p-4 rounded-lg bg-slate-900/50 border border-slate-800 text-slate-400 text-xs">
-                <i class="fas fa-info-circle text-cyan-400 mr-2"></i>
+                <i class="bi bi-info-circle text-[rgb(27,146,208)] mr-2"></i>
                 <strong>Credentials de desarrollo:</strong><br>
                 Email: <?php echo htmlspecialchars(env('ADMIN_EMAIL', 'admin@cybertec.local')); ?><br>
                 Password: <em>(ver .env file)</em>
@@ -180,8 +180,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <!-- Back to Site -->
             <div class="text-center mt-6">
-                <a href="<?php echo env('APP_URL'); ?>" class="text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors">
-                    <i class="fas fa-arrow-left mr-2"></i>Volver al sitio principal
+                <a href="<?php echo env('APP_URL'); ?>" class="text-[rgb(27,146,208)] hover:text-[rgb(27,146,208)] text-sm font-medium transition-colors">
+                    <i class="bi bi-arrow-left mr-2"></i>Volver al sitio principal
                 </a>
             </div>
             

@@ -6,18 +6,18 @@
 ?>
 
 <!-- Support & Management -->
-<section class="py-24 bg-slate-950 relative overflow-hidden">
+<section class="py-16 lg:py-20 bg-slate-950 relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-5"></div>
-    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-blue-900 to-transparent"></div>
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[rgb(27,146,208)]/50 to-transparent"></div>
     
     <div class="container mx-auto px-6 relative z-10">
         
         <!-- Section Header -->
-        <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-6 border-b border-slate-800 pb-8">
+        <div class="flex flex-col md:flex-row items-end justify-between mb-14 gap-6 border-b border-slate-800 pb-8">
             <div>
-                <h2 class="text-4xl md:text-5xl font-display font-bold text-white mb-2">Gestión TI & <span class="text-blue-500">Soporte</span></h2>
-                <p class="text-slate-400 text-lg">Centro de Operaciones para la continuidad de su negocio.</p>
+                <h2 class="text-4xl md:text-5xl font-display font-bold text-white mb-2" data-aos="fade-up">Gestión TI & <span class="text-[rgb(27,146,208)]">Soporte</span></h2>
+                <p class="text-slate-400 text-lg" data-aos="fade-up" data-aos-delay="100">Centro de Operaciones para la continuidad de su negocio.</p>
             </div>
             <div class="flex items-center gap-4 bg-slate-900/50 px-6 py-3 rounded-full border border-slate-800 backdrop-blur-sm">
                 <span class="relative flex h-3 w-3">
@@ -29,15 +29,15 @@
         </div>
 
         <!-- Bento Grid Layout for Support Services -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             
             <!-- Large Card: Service Desk -->
-            <div class="md:col-span-2 bg-slate-900/60 border border-slate-800 rounded-3xl p-8 hover:border-blue-500/30 transition-all group relative overflow-hidden">
+            <div class="md:col-span-2 bg-slate-900/60 border border-slate-800 rounded-3xl p-8 hover:border-[rgb(27,146,208)]/30 transition-all group relative overflow-hidden" data-aos="fade-right">
                 <div class="absolute inset-0 bg-blue-500/5 group-hover:bg-blue-500/10 transition-colors"></div>
                 <div class="relative z-10">
                     <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-2xl shadow-lg shadow-blue-500/20">
-                            <i class="fas fa-headset"></i>
+                        <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl shadow-lg shadow-blue-500/20">
+                            <i class="bi bi-headset"></i>
                         </div>
                         <h3 class="text-2xl font-bold text-white">Service Desk Integral</h3>
                     </div>
@@ -45,17 +45,17 @@
                         <div>
                             <h4 class="text-blue-400 font-bold mb-3 text-sm uppercase tracking-wider">Soporte en Sitio</h4>
                             <ul class="space-y-2 text-slate-400 text-sm">
-                                <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500 text-xs"></i> Mantenimiento de cómputo y periféricos</li>
-                                <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500 text-xs"></i> Gestión de incidentes (ITIL)</li>
-                                <li class="flex items-center gap-2"><i class="fas fa-check text-blue-500 text-xs"></i> Personal técnico certificado</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Mantenimiento de cómputo y periféricos</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Gestión de incidentes (ITIL)</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Personal técnico certificado</li>
                             </ul>
                         </div>
                         <div class="border-l border-slate-800 pl-8">
                             <h4 class="text-blue-400 font-bold mb-3 text-sm uppercase tracking-wider">Soporte Remoto</h4>
                             <ul class="space-y-2 text-slate-400 text-sm">
-                                <li class="flex items-center gap-2"><i class="fas fa-wifi text-blue-500 text-xs"></i> Mesa de ayuda virtual</li>
-                                <li class="flex items-center gap-2"><i class="fas fa-clock text-blue-500 text-xs"></i> Trazabilidad de tickets 24/7</li>
-                                <li class="flex items-center gap-2"><i class="fas fa-chart-line text-blue-500 text-xs"></i> Reportes de ANS</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-wifi-2 text-[rgb(27,146,208)] text-sm"></i> Mesa de ayuda virtual</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-clock-fill text-[rgb(27,146,208)] text-sm"></i> Trazabilidad de tickets 24/7</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-graph-up text-[rgb(27,146,208)] text-sm"></i> Reportes de ANS</li>
                             </ul>
                         </div>
                     </div>
@@ -64,8 +64,8 @@
 
             <!-- Tall Card: Cloud & Backup -->
             <div class="md:row-span-2 bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 hover:border-indigo-500/30 transition-all group">
-                <div class="w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20 mb-6">
-                    <i class="fas fa-cloud"></i>
+                <div class="w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-xl shadow-lg shadow-indigo-500/20 mb-6">
+                    <i class="bi bi-cloud-upload"></i>
                 </div>
                 <h3 class="text-2xl font-bold text-white mb-2">Cloud & Data</h3>
                 <p class="text-slate-500 text-sm mb-6">Infraestructura elástica y segura.</p>
@@ -87,11 +87,11 @@
             </div>
 
             <!-- Medium Card: Outsourcing -->
-            <div class="md:col-span-2 bg-slate-900/60 border border-slate-800 rounded-3xl p-8 hover:border-cyan-500/30 transition-all group flex flex-col md:flex-row items-center gap-8">
+            <div class="md:col-span-2 bg-slate-900/60 border border-slate-800 rounded-3xl p-8 hover:border-[rgb(27,146,208)]/30 transition-all group flex flex-col md:flex-row items-center gap-8">
                 <div class="flex-1">
                     <div class="flex items-center gap-4 mb-4">
-                        <div class="w-10 h-10 rounded-lg bg-cyan-600/20 text-cyan-400 flex items-center justify-center text-lg border border-cyan-500/30">
-                            <i class="fas fa-briefcase"></i>
+                        <div class="w-10 h-10 rounded-lg bg-[rgb(27,146,208)]/20 text-[rgb(27,146,208)] flex items-center justify-center text-lg border border-[rgb(27,146,208)]/30">
+                            <i class="bi bi-briefcase"></i>
                         </div>
                         <h3 class="text-xl font-bold text-white">Outsourcing TI</h3>
                     </div>
@@ -124,7 +124,7 @@
                     </div>
                     <a href="#contacto" class="group flex items-center gap-3 px-6 py-3 bg-white text-slate-900 rounded-xl font-bold hover:bg-blue-50 transition-all">
                         <span>Iniciar Proyecto</span>
-                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                        <i class="bi bi-arrow-right group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>

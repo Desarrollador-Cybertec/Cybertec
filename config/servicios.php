@@ -8,9 +8,9 @@ $servicios = [
     [
         "titulo" => "Ciberdefensa Activa",
         "subtitulo" => "Blindaje digital total",
-        "icon" => "fa-shield-virus",
-        "color" => "text-emerald-400",
-        "bg_gradient" => "from-emerald-900/40 to-slate-900",
+        "icon" => "bi-shield-check",
+        "color" => "text-[rgb(24,29,94)]",
+        "bg_gradient" => "from-[rgb(24,29,94)]/40 to-slate-900",
         "span" => "md:col-span-2 lg:col-span-2",
         "img" => "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800",
         "puntos" => [
@@ -23,9 +23,9 @@ $servicios = [
     [
         "titulo" => "Vigilancia Inteligente",
         "subtitulo" => "Ojos en cada rincón",
-        "icon" => "fa-eye",
-        "color" => "text-cyan-400",
-        "bg_gradient" => "from-cyan-900/40 to-slate-900",
+        "icon" => "bi-eye-fill",
+        "color" => "text-[rgb(27,146,208)]",
+        "bg_gradient" => "from-[rgb(27,146,208)]/40 to-slate-900",
         "span" => "md:col-span-1 lg:col-span-1",
         "img" => "https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800",
         "puntos" => [
@@ -37,9 +37,9 @@ $servicios = [
     [
         "titulo" => "Infraestructura Cloud & Data",
         "subtitulo" => "La columna vertebral de su negocio",
-        "icon" => "fa-server",
-        "color" => "text-violet-400",
-        "bg_gradient" => "from-violet-900/40 to-slate-900",
+        "icon" => "bi-cloud-check",
+        "color" => "text-[rgb(43,47,54)]",
+        "bg_gradient" => "from-[rgb(43,47,54)]/40 to-slate-900",
         "span" => "md:col-span-1 lg:col-span-1",
         "img" => "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=800",
         "puntos" => [
@@ -51,9 +51,9 @@ $servicios = [
     [
         "titulo" => "Soporte TI 360°",
         "subtitulo" => "Continuidad sin interrupciones",
-        "icon" => "fa-headset",
-        "color" => "text-blue-400",
-        "bg_gradient" => "from-blue-900/40 to-slate-900",
+        "icon" => "bi-headset",
+        "color" => "text-[rgb(27,146,208)]",
+        "bg_gradient" => "from-[rgb(27,146,208)]/40 to-slate-900",
         "span" => "md:col-span-2 lg:col-span-2",
         "img" => "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800",
         "puntos" => [

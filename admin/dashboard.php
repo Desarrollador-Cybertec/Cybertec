@@ -94,17 +94,17 @@ function getStatusBadge($status) {
     <nav class="bg-slate-900 border-b border-slate-800 sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-cyan-500/10 rounded-lg flex items-center justify-center border border-cyan-500/20">
-                    <i class="fas fa-shield-alt text-cyan-400"></i>
+                <div class="w-10 h-10 bg-[rgb(27,146,208)]/10 rounded-lg flex items-center justify-center border border-[rgb(27,146,208)]/20">
+                    <i class="bi bi-shield-check text-[rgb(27,146,208)] text-lg"></i>
                 </div>
                 <h1 class="text-xl font-bold text-white">
-                    CYBER<span class="text-cyan-400">TEC</span> Admin
+                    CYBER<span class="text-[rgb(27,146,208)]">TEC</span> Admin
                 </h1>
             </div>
             
             <div class="flex items-center gap-6">
                 <span class="text-sm text-slate-400">
-                    <i class="fas fa-user-circle mr-2 text-cyan-400"></i>
+                    <i class="bi bi-person-circle mr-2 text-[rgb(27,146,208)]"></i>
                     <?php echo htmlspecialchars($user['email']); ?>
                 </span>
                 
@@ -113,7 +113,7 @@ function getStatusBadge($status) {
                         type="submit" 
                         class="px-4 py-2 rounded-lg bg-red-500/10 text-red-400 text-sm font-medium hover:bg-red-500/20 transition-colors border border-red-500/30"
                     >
-                        <i class="fas fa-sign-out-alt mr-2"></i>Salir
+                        <i class="bi bi-box-arrow-right mr-2"></i>Salir
                     </button>
                 </form>
             </div>
@@ -133,8 +133,8 @@ function getStatusBadge($status) {
                         <p class="text-slate-400 text-sm font-medium">Total Contactos</p>
                         <p class="text-4xl font-bold text-white mt-2"><?php echo $total; ?></p>
                     </div>
-                    <div class="w-12 h-12 rounded-lg bg-cyan-500/10 flex items-center justify-center text-2xl text-cyan-400">
-                        <i class="fas fa-envelope"></i>
+                    <div class="w-12 h-12 rounded-lg bg-[rgb(27,146,208)]/10 flex items-center justify-center text-2xl text-[rgb(27,146,208)]">
+                        <i class="bi bi-envelope text-lg text-[rgb(27,146,208)]"></i>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ function getStatusBadge($status) {
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center text-2xl text-blue-400">
-                        <i class="fas fa-inbox"></i>
+                        <i class="bi bi-inbox text-lg text-[rgb(27,146,208)]"></i>
                     </div>
                 </div>
             </div>
@@ -164,7 +164,7 @@ function getStatusBadge($status) {
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg bg-green-500/10 flex items-center justify-center text-2xl text-green-400">
-                        <i class="fas fa-check-circle"></i>
+                        <i class="bi bi-check-circle-fill text-lg text-[rgb(27,146,208)]"></i>
                     </div>
                 </div>
             </div>
@@ -176,14 +176,14 @@ function getStatusBadge($status) {
                         <p class="text-slate-400 text-sm font-medium">Estado API</p>
                         <p class="text-white mt-2 font-bold">
                             <?php if ($response['success']): ?>
-                                <span class="text-green-400"><i class="fas fa-circle text-xs mr-1"></i>Conectada</span>
+                                <span class="text-green-400"><i class="bi bi-circle-fill text-xs mr-1"></i>Conectada</span>
                             <?php else: ?>
-                                <span class="text-red-400"><i class="fas fa-circle text-xs mr-1"></i>Error</span>
+                                <span class="text-red-400"><i class="bi bi-circle-fill text-xs mr-1"></i>Error</span>
                             <?php endif; ?>
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg <?php echo $response['success'] ? 'bg-green-500/10' : 'bg-red-500/10'; ?> flex items-center justify-center text-2xl <?php echo $response['success'] ? 'text-green-400' : 'text-red-400'; ?>">
-                        <i class="fas fa-server"></i>
+                        <i class="bi bi-server text-lg text-[rgb(27,146,208)]"></i>
                     </div>
                 </div>
             </div>
@@ -196,21 +196,21 @@ function getStatusBadge($status) {
             <!-- Header -->
             <div class="px-6 py-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
                 <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                    <i class="fas fa-list text-cyan-400"></i>
+                    <i class="bi bi-list text-lg text-[rgb(27,146,208)]"></i>
                     Lista de Contactos
                 </h2>
                 <button 
                     onclick="location.reload()"
-                    class="px-4 py-2 rounded-lg bg-cyan-500/10 text-cyan-400 text-sm font-medium hover:bg-cyan-500/20 transition-colors border border-cyan-500/30"
+                    class="px-4 py-2 rounded-lg bg-[rgb(27,146,208)]/10 text-[rgb(27,146,208)] text-sm font-medium hover:bg-[rgb(27,146,208)]/20 transition-colors border border-[rgb(27,146,208)]/30"
                 >
-                    <i class="fas fa-sync-alt mr-2"></i>Recargar
+                    <i class="bi bi-arrow-clockwise mr-2"></i>Recargar
                 </button>
             </div>
             
             <!-- Error Message -->
             <?php if (!empty($error) && !$response['success']): ?>
             <div class="p-6 bg-red-500/10 border-b border-red-500/30 text-red-300 text-sm">
-                <i class="fas fa-exclamation-triangle mr-2"></i>
+                <i class="bi bi-exclamation-triangle text-yellow-500 mr-2"></i>
                 <?php echo htmlspecialchars($error); ?>
             </div>
             <?php endif; ?>
@@ -233,7 +233,7 @@ function getStatusBadge($status) {
                         <?php if (empty($contactos)): ?>
                         <tr>
                             <td colspan="7" class="px-6 py-8 text-center text-slate-400">
-                                <i class="fas fa-inbox text-2xl mb-2 block opacity-50"></i>
+                                <i class="bi bi-inbox text-2xl mb-2 block text-[rgb(27,146,208)]"></i>
                                 No hay contactos para mostrar
                             </td>
                         </tr>
@@ -244,7 +244,7 @@ function getStatusBadge($status) {
                                     <?php echo htmlspecialchars($contacto['nombre'] ?? 'N/A'); ?>
                                 </td>
                                 <td class="px-6 py-4 text-sm text-slate-300">
-                                    <a href="mailto:<?php echo htmlspecialchars($contacto['email'] ?? ''); ?>" class="text-cyan-400 hover:underline">
+                                    <a href="mailto:<?php echo htmlspecialchars($contacto['email'] ?? ''); ?>" class="text-[rgb(27,146,208)] hover:underline">
                                         <?php echo htmlspecialchars($contacto['email'] ?? 'N/A'); ?>
                                     </a>
                                 </td>
@@ -262,10 +262,10 @@ function getStatusBadge($status) {
                                 </td>
                                 <td class="px-6 py-4 text-sm">
                                     <button 
-                                        class="text-cyan-400 hover:text-cyan-300 transition-colors"
+                                        class="text-[rgb(27,146,208)] hover:text-[rgb(27,146,208)] transition-colors"
                                         onclick="viewContact(<?php echo json_encode($contacto); ?>)"
                                     >
-                                        <i class="fas fa-eye mr-1"></i>Ver
+                                        <i class="bi bi-eye mr-1 text-[rgb(27,146,208)]"></i>Ver
                                     </button>
                                 </td>
                             </tr>
@@ -279,7 +279,7 @@ function getStatusBadge($status) {
         
         <!-- Info Box -->
         <div class="mt-8 p-4 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 text-sm">
-            <i class="fas fa-info-circle text-cyan-400 mr-2"></i>
+            <i class="bi bi-info-circle text-[rgb(27,146,208)] mr-2"></i>
             <strong>Información API:</strong> Los datos se cargan de la API Laravel en <?php echo getApiUrl('contactos'); ?>
         </div>
         
@@ -291,7 +291,7 @@ function getStatusBadge($status) {
             <div class="flex justify-between items-center mb-6">
                 <h3 class="text-2xl font-bold text-white" id="modalTitle">Detalles del Contacto</h3>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-white text-2xl">
-                    <i class="fas fa-times"></i>
+                    <i class="bi bi-x text-lg"></i>
                 </button>
             </div>
             
@@ -308,9 +308,9 @@ function getStatusBadge($status) {
                 </button>
                 <button 
                     onclick="markAsRead()"
-                    class="px-6 py-2 rounded-lg bg-cyan-500 text-slate-900 font-medium hover:bg-cyan-400 transition-colors"
+                    class="px-6 py-2 rounded-lg bg-[rgb(27,146,208)] text-slate-900 font-medium hover:bg-[rgb(27,146,208)] transition-colors"
                 >
-                    <i class="fas fa-check mr-2"></i>Marcar como Leído
+                    <i class="bi bi-check-circle mr-2"></i>Marcar como Leído
                 </button>
             </div>
         </div>
@@ -330,7 +330,7 @@ function getStatusBadge($status) {
                     </div>
                     <div>
                         <p class="text-slate-500 text-xs uppercase tracking-wider">Email</p>
-                        <p class="text-cyan-400 mt-1"><a href="mailto:${contact.email}">${contact.email || 'N/A'}</a></p>
+                        <p class="text-[rgb(27,146,208)] mt-1"><a href="mailto:${contact.email}">${contact.email || 'N/A'}</a></p>
                     </div>
                     <div>
                         <p class="text-slate-500 text-xs uppercase tracking-wider">Teléfono</p>
