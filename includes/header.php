@@ -87,21 +87,64 @@
 </head>
 <body class="antialiased font-sans overflow-x-hidden">
     <!-- Navbar -->
-    <nav class="fixed w-full z-50 glass-panel border-b-0 border-white/5 transition-all duration-300">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-display font-black tracking-tighter text-white flex items-center gap-3 group">
-                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 object-contain group-hover:scale-105 transition-transform">
+    <nav class="fixed w-full z-50 transition-all duration-500" id="main-nav">
+        <!-- Glass Background -->
+        <div class="absolute inset-0 bg-slate-950/70 backdrop-blur-xl border-b border-white/5"></div>
+
+        <div class="relative container mx-auto px-6 py-4 flex justify-between items-center">
+            
+            <!-- Logo con laser line -->
+            <a href="#" class="relative group">
+                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(139,92,246,0.5)]">
+                <!-- Laser line debajo del logo -->
+                <div class="nav-laser-line w-full mt-1"></div>
             </a>
             
-            <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide text-slate-400">
-                <a href="#inicio" class="hover:text-radar-400 transition-colors">Inicio</a>
-                <a href="#servicios" class="hover:text-radar-400 transition-colors">Soluciones</a>
-                <a href="#nosotros" class="hover:text-radar-400 transition-colors">Nosotros</a>
-                <a href="#contacto" class="px-6 py-2.5 rounded-full bg-[ rgb(27,146,208)]/10 text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/20 hover:bg-[rgb(27,146,208)] hover:text-white transition-all shadow-lg" style="--tw-shadow-colored: 0 10px 15px -3px rgba(27,146,208,0.2); box-shadow: var(--tw-shadow-colored);">
-                    Contactar
+            <!-- Desktop Nav Links -->
+            <div class="hidden md:flex items-center gap-8 text-base font-semibold tracking-wide text-slate-400">
+                <a href="#inicio" class="nav-link hover:text-white transition-colors duration-200">Inicio</a>
+                <a href="#servicios" class="nav-link hover:text-white transition-colors duration-200">Soluciones</a>
+                <a href="#nosotros" class="nav-link hover:text-white transition-colors duration-200">Nosotros</a>
+                <a href="#contacto" class="relative px-7 py-3 rounded-full text-base font-bold text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/30 overflow-hidden group/btn transition-all duration-300 hover:text-white hover:border-[rgb(27,146,208)]" style="background: rgba(27,146,208,0.08);">
+                    <span class="absolute inset-0 bg-[rgb(27,146,208)] scale-x-0 group-hover/btn:scale-x-100 origin-left transition-transform duration-300 rounded-full"></span>
+                    <span class="relative">Contactar</span>
                 </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden relative flex flex-col gap-1.5 p-2 group/ham" id="mobile-menu-btn" aria-label="Menu">
+                <span class="w-6 h-0.5 bg-slate-400 group-hover/ham:bg-[rgb(27,146,208)] transition-all duration-300 group-hover/ham:w-7"></span>
+                <span class="w-4 h-0.5 bg-violet-400 transition-all duration-300 group-hover/ham:w-7"></span>
+                <span class="w-6 h-0.5 bg-slate-400 group-hover/ham:bg-[rgb(27,146,208)] transition-all duration-300 group-hover/ham:w-7"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="border-t border-white/5 bg-slate-950/90 backdrop-blur-xl px-6 py-6 flex flex-col gap-5 text-sm font-medium text-slate-400">
+                <a href="#inicio" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
+                <a href="#servicios" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
+                <a href="#nosotros" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-violet-400 mr-2"></i>Nosotros</a>
+                <a href="#contacto" class="mt-2 text-center py-3 rounded-xl bg-[rgb(27,146,208)]/10 border border-[rgb(27,146,208)]/30 text-[rgb(27,146,208)] font-bold hover:bg-[rgb(27,146,208)] hover:text-white transition-all duration-300">Contactar</a>
             </div>
         </div>
     </nav>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        // Nav scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('main-nav');
+            if (window.scrollY > 40) {
+                nav.querySelector('.absolute').style.background = 'rgba(2,6,23,0.92)';
+            } else {
+                nav.querySelector('.absolute').style.background = '';
+            }
+        });
+    </script>
 </body>
 </html>

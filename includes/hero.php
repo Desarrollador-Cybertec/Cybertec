@@ -12,23 +12,22 @@
     <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-[rgb(27,146,208)]/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
     <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-violet-600/20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"></div>
 
-    <div class="container mx-auto px-6 relative z-10 text-center">
+    <div class="container mx-auto px-6 relative z-10 text-center flex flex-col items-center">
         
+        <!-- Badge -->
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-[rgb(27,146,208)] text-xs font-bold uppercase tracking-widest mb-8 backdrop-blur" data-aos="fade-down">
             <span class="w-2 h-2 rounded-full bg-[rgb(27,146,208)] animate-pulse"></span>
             System Secure Status: Active
         </div>
 
-        <h1 class="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-tight mb-8 tracking-tight" data-aos="fade-up" data-aos-delay="150">
-            CYBERTEC <br>
-            <span class="text-neon relative">
-                Seguridad en la que Confias
-                <!-- Underline Decoration -->
-                <svg class="absolute w-full h-3 -bottom-2 left-0 text-[rgb(27,146,208)] opacity-50" viewBox="0 0 100 10" preserveAspectRatio="none">
-                    <path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="2" fill="none" />
-                </svg>
-            </span>
-        </h1>
+        <!-- Hero Logo con Slogan -->
+        <div class="relative w-full max-w-lg md:max-w-2xl lg:max-w-3xl mb-6" data-aos="fade-up" data-aos-delay="150">
+            <!-- Laser sweep sobre el logo -->
+            <div class="hero-laser-sweep"></div>
+            <img src="assets/media/hero-logo.png" alt="Cybertec - Seguridad en la que Confías" class="w-full drop-shadow-[0_0_40px_rgba(27,146,208,0.3)]">
+            <!-- Línea laser debajo del logo hero -->
+            <div class="hero-laser-underline mt-2"></div>
+        </div>
 
         <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-12 font-light leading-relaxed" data-aos="fade-up" data-aos-delay="300">
             Cybertec integra seguridad informática, infraestructura resiliente y soporte 24/7 para empresas que no pueden detenerse.

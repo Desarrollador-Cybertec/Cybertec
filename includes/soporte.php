@@ -45,17 +45,17 @@
                         <div>
                             <h4 class="text-blue-400 font-bold mb-3 text-sm uppercase tracking-wider">Soporte en Sitio</h4>
                             <ul class="space-y-2 text-slate-400 text-sm">
-                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Mantenimiento de cómputo y periféricos</li>
-                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Gestión de incidentes (ITIL)</li>
-                                <li class="flex items-center gap-2"><i class="bi bi-check-circle text-[rgb(27,146,208)] text-sm"></i> Personal técnico certificado</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[rgb(27,146,208)]"></i> Mantenimiento de cómputo y periféricos</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[rgb(27,146,208)]"></i> Gestión de incidentes (ITIL)</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-[rgb(27,146,208)]"></i> Personal técnico certificado</li>
                             </ul>
                         </div>
                         <div class="border-l border-slate-800 pl-8">
                             <h4 class="text-blue-400 font-bold mb-3 text-sm uppercase tracking-wider">Soporte Remoto</h4>
                             <ul class="space-y-2 text-slate-400 text-sm">
-                                <li class="flex items-center gap-2"><i class="bi bi-wifi-2 text-[rgb(27,146,208)] text-sm"></i> Mesa de ayuda virtual</li>
-                                <li class="flex items-center gap-2"><i class="bi bi-clock-fill text-[rgb(27,146,208)] text-sm"></i> Trazabilidad de tickets 24/7</li>
-                                <li class="flex items-center gap-2"><i class="bi bi-graph-up text-[rgb(27,146,208)] text-sm"></i> Reportes de ANS</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-wifi-2 text-[rgb(27,146,208)]"></i> Mesa de ayuda virtual</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-clock-fill text-[rgb(27,146,208)]"></i> Trazabilidad de tickets 24/7</li>
+                                <li class="flex items-center gap-2"><i class="bi bi-graph-up text-[rgb(27,146,208)]"></i> Reportes de ANS</li>
                             </ul>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                     <i class="bi bi-cloud-upload"></i>
                 </div>
                 <h3 class="text-2xl font-bold text-white mb-2">Cloud & Data</h3>
-                <p class="text-slate-500 text-sm mb-6">Infraestructura elástica y segura.</p>
+                <p class="text-slate-400 text-sm mb-6">Infraestructura elástica y segura.</p>
                 
                 <div class="space-y-6">
                     <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50">

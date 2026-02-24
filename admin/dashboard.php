@@ -81,6 +81,9 @@ function getStatusBadge($status) {
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
     <style>
         body {
             background-color: #020617;
@@ -149,7 +152,7 @@ function getStatusBadge($status) {
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center text-2xl text-blue-400">
-                        <i class="bi bi-inbox text-lg text-[rgb(27,146,208)]"></i>
+                        <i class="bi bi-inbox text-lg"></i>
                     </div>
                 </div>
             </div>
@@ -164,7 +167,7 @@ function getStatusBadge($status) {
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg bg-green-500/10 flex items-center justify-center text-2xl text-green-400">
-                        <i class="bi bi-check-circle-fill text-lg text-[rgb(27,146,208)]"></i>
+                        <i class="bi bi-check-circle-fill text-lg"></i>
                     </div>
                 </div>
             </div>
@@ -183,7 +186,7 @@ function getStatusBadge($status) {
                         </p>
                     </div>
                     <div class="w-12 h-12 rounded-lg <?php echo $response['success'] ? 'bg-green-500/10' : 'bg-red-500/10'; ?> flex items-center justify-center text-2xl <?php echo $response['success'] ? 'text-green-400' : 'text-red-400'; ?>">
-                        <i class="bi bi-server text-lg text-[rgb(27,146,208)]"></i>
+                        <i class="bi bi-server text-lg"></i>
                     </div>
                 </div>
             </div>

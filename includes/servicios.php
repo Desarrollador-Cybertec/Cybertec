@@ -47,7 +47,7 @@ require_once __DIR__ . '/../config/servicios.php';
                     </div>
 
                     <a href="#" class="inline-flex items-center gap-2 text-white font-bold group-hover:translate-x-2 transition-transform">
-                        Conocer más <i class="fas fa-arrow-right <?php echo $s['color']; ?>"></i>
+                        Conocer más <i class="bi bi-arrow-right <?php echo $s['color']; ?>"></i>
                     </a>
                 </div>
             </div>

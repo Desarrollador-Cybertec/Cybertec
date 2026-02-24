@@ -12,7 +12,7 @@
         <div class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500" data-aos="zoom-in">
             <i class="fab fa-microsoft text-4xl hover:text-blue-500"></i>
             <i class="fab fa-aws text-4xl hover:text-orange-500"></i>
-            <i class="fas fa-server text-4xl hover:text-green-500"></i>
+            <i class="bi bi-server text-4xl hover:text-green-500"></i>
             <i class="fab fa-linux text-4xl hover:text-yellow-500"></i>
             <i class="fab fa-google text-4xl hover:text-red-500"></i>
             <i class="fab fa-docker text-4xl hover:text-blue-400"></i>
@@ -32,7 +32,7 @@
                 Agende una auditoría gratuita de seguridad e infraestructura hoy mismo. Sin compromisos, solo expertos analizando sus necesidades.
             </p>
             <form class="max-w-md mx-auto flex gap-4" data-aos="zoom-in" data-aos-delay="200">
-                <input type="email" placeholder="Su correo corporativo" class="flex-1 bg-slate-900 border border-slate-700 text-white px-6 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-600">
+                <input type="email" placeholder="Su correo corporativo" class="flex-1 bg-slate-900 border border-slate-700 text-white px-6 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500">
                 <button type="button" class="bg-[rgb(27,146,208)] text-slate-900 font-bold px-8 py-4 rounded-xl hover:bg-[rgb(27,146,208)] transition-colors" style="--tw-shadow-colored: 0 10px 15px -3px rgba(27,146,208,0.25); box-shadow: var(--tw-shadow-colored);">
                     Iniciar
                 </button>
@@ -49,8 +49,8 @@
                     Transformando retos tecnológicos en oportunidades de crecimiento seguro.
                 </p>
                 <div class="flex gap-4">
-                    <a href="#" class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-[rgb(27,146,208)] hover:text-white transition-all"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-[rgb(27,146,208)] hover:text-white transition-all"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-[rgb(27,146,208)] hover:text-white transition-all"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-[rgb(27,146,208)] hover:text-white transition-all"><i class="bi bi-twitter-x"></i></a>
                 </div>
             </div>
             
@@ -67,14 +67,14 @@
             <div data-aos="fade-up" data-aos-delay="150">
                 <h4 class="text-white font-bold mb-6">Contacto</h4>
                 <ul class="space-y-3 text-slate-500 text-sm">
-                    <li><i class="fas fa-map-marker-alt text-[rgb(27,146,208)] w-5"></i> Piedecuesta, Santander, Colombia</li>
-                    <li><i class="fas fa-phone text-[rgb(27,146,208)] w-5"></i> +57 (316) 123-0123</li>
-                    <li><i class="fas fa-envelope text-[rgb(27,146,208)] w-5"></i> info@cybertec.com.co</li>
+                    <li><i class="bi bi-geo-alt-fill text-[rgb(27,146,208)] w-5"></i> Piedecuesta, Santander, Colombia</li>
+                    <li><i class="bi bi-telephone-fill text-[rgb(27,146,208)] w-5"></i> +57 (316) 123-0123</li>
+                    <li><i class="bi bi-envelope-fill text-[rgb(27,146,208)] w-5"></i> info@cybertec.com.co</li>
                 </ul>
             </div>
         </div>
 
-        <div class="text-center pt-12 mt-12 border-t border-slate-900 text-slate-600 text-xs">
+        <div class="text-center pt-12 mt-12 border-t border-slate-900 text-slate-500 text-xs">
             &copy; <?php echo date('Y'); ?> Cybertec Informatica & Telecomunicaciones SAS. Todos los derechos reservados.
         </div>
     </div>
