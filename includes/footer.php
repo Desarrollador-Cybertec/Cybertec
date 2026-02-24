@@ -31,10 +31,10 @@
             <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-6 sm:mb-10" data-aos="fade-up" data-aos-delay="150">
                 Agende una auditoría gratuita de seguridad e infraestructura hoy mismo. Sin compromisos, solo expertos analizando sus necesidades.
             </p>
-            <form class="max-w-sm mx-auto flex flex-col gap-3" data-aos="zoom-in" data-aos-delay="200">
-                <input type="email" placeholder="Su correo corporativo" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-3 sm:py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base">
-                <a href="https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20agendar%20una%20auditor%C3%ADa%20gratuita%20de%20seguridad%20e%20infraestructura." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center gap-2 bg-[rgb(27,146,208)] text-white font-bold px-6 py-3 sm:py-4 rounded-xl hover:brightness-110 transition-all" style="box-shadow: 0 10px 15px -3px rgba(27,146,208,0.25);">
-                    <i class="bi bi-whatsapp text-lg"></i> Agendar por WhatsApp
+            <form class="max-w-sm mx-auto flex flex-col gap-4 sm:gap-3" data-aos="zoom-in" data-aos-delay="200">
+                <input type="email" placeholder="Su correo corporativo" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base" required aria-label="Correo corporativo">
+                <a href="https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20agendar%20una%20auditor%C3%ADa%20gratuita%20de%20seguridad%20e%20infraestructura." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center gap-2 bg-[rgb(27,146,208)] text-white font-bold px-6 py-4 rounded-xl hover:brightness-110 transition-all" style="box-shadow: 0 10px 15px -3px rgba(27,146,208,0.25);">
+                    <i class="bi bi-whatsapp text-base sm:text-lg"></i> Agendar por WhatsApp
                 </a>
             </form>
         </div>

@@ -15,6 +15,7 @@
     <div class="container mx-auto px-4 sm:px-6 relative z-10 text-center flex flex-col items-center">
         
         <!-- Badge -->
+         <br>
         <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-[rgb(27,146,208)] text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-6 sm:mb-8 backdrop-blur" data-aos="fade-down">
             <span class="w-2 h-2 rounded-full bg-[rgb(27,146,208)] animate-pulse"></span>
             System Secure Status: Active
