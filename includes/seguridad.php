@@ -10,7 +10,7 @@
     <!-- Decorative bg elements -->
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20 pointer-events-none">
         <div class="absolute top-10 right-10 w-96 h-96 bg-[rgb(27,146,208)]/10 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-10 left-10 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-96 h-96 bg-[rgb(27,146,208)]/10 rounded-full blur-3xl"></div>
     </div>
 
     <div class="container mx-auto px-4 sm:px-6 relative z-10">
@@ -106,48 +106,48 @@
             <div class="grid lg:grid-cols-12 gap-8 sm:gap-12 items-start lg:flex-row-reverse">
                 <div class="lg:col-span-8 space-y-5 sm:space-y-8">
                      <!-- Module 1 -->
-                     <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-violet-500/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="100">
+                     <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-[rgb(27,146,208)]/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="100">
                         <div class="flex flex-col md:flex-row gap-6">
                             <div class="flex-shrink-0">
-                                <div class="w-12 h-12 rounded-full bg-violet-500/10 text-violet-400 flex items-center justify-center text-xl">
+                                <div class="w-12 h-12 rounded-full bg-[rgb(27,146,208)]/10 text-[rgb(27,146,208)] flex items-center justify-center text-xl">
                                     <i class="bi bi-diagram-3"></i>
                                 </div>
                             </div>
                             <div>
                                 <h4 class="text-lg sm:text-xl font-bold text-white mb-3">Seguridad Perimetral & Networking</h4>
                                 <ul class="space-y-2 text-slate-400">
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Implementación de firewalls de última generación.</span></li>
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Segmentación de red y control de accesos granular.</span></li>
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Implementación de políticas estrictas de seguridad.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Implementación de firewalls de última generación.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Segmentación de red y control de accesos granular.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Implementación de políticas estrictas de seguridad.</span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                     <!-- Module 2 -->
-                    <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-violet-500/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="150">
+                    <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-[rgb(27,146,208)]/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="150">
                         <div class="flex flex-col md:flex-row gap-6">
                             <div class="flex-shrink-0">
-                                <div class="w-12 h-12 rounded-full bg-violet-500/10 text-violet-400 flex items-center justify-center text-xl">
+                                <div class="w-12 h-12 rounded-full bg-[rgb(27,146,208)]/10 text-[rgb(27,146,208)] flex items-center justify-center text-xl">
                                     <i class="bi bi-virus"></i>
                                 </div>
                             </div>
                             <div>
                                 <h4 class="text-lg sm:text-xl font-bold text-white mb-3">Protección Antivirus Corporativa</h4>
                                 <ul class="space-y-2 text-slate-400">
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Detección y eliminación de malware y ransomware.</span></li>
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Monitoreo y protección en tiempo real.</span></li>
-                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-violet-400 mt-1"></i> <span class="text-sm">Reportes detallados de seguridad e incidentes.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Detección y eliminación de malware y ransomware.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Monitoreo y protección en tiempo real.</span></li>
+                                    <li class="flex items-start gap-2"><i class="bi bi-shield-check text-[rgb(27,146,208)] mt-1"></i> <span class="text-sm">Reportes detallados de seguridad e incidentes.</span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                     <!-- Module 3 -->
-                    <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-violet-500/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="200">
+                    <div class="group p-5 sm:p-8 rounded-3xl bg-slate-950 border border-slate-800 hover:border-[rgb(27,146,208)]/30 transition-all hover:bg-slate-900/80" data-aos="fade-right" data-aos-delay="200">
                         <div class="flex flex-col md:flex-row gap-6">
                             <div class="flex-shrink-0">
-                                <div class="w-12 h-12 rounded-full bg-violet-500/10 text-violet-400 flex items-center justify-center text-xl">
+                                <div class="w-12 h-12 rounded-full bg-[rgb(27,146,208)]/10 text-[rgb(27,146,208)] flex items-center justify-center text-xl">
                                     <i class="bi bi-file-earmark-check"></i>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
 
                 <div class="lg:col-span-4 sticky top-32 lg:order-last" data-aos="fade-left">
                     <div class="p-6 sm:p-8 rounded-3xl bg-slate-800/50 border border-white/5 backdrop-blur-sm">
-                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-700 flex items-center justify-center text-3xl text-white mb-6 shadow-lg shadow-violet-500/20">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#1B92D0] to-[#181D5E] flex items-center justify-center text-3xl text-white mb-6 shadow-lg shadow-[#1B92D0]/20">
                             <i class="bi bi-shield-check"></i>
                         </div>
                         <h3 class="text-2xl sm:text-3xl font-display font-bold text-white mb-4">Seguridad Digital y Defensa Perimetral</h3>

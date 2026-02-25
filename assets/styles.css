@@ -3,11 +3,78 @@
    Brand Colors Schema
    ============================================ */
 
+/* @font-face - Polymath (Display / Headings) */
+@font-face {
+    font-family: 'Polymath';
+    src: url('fonts/Polymath/PolymathDispDemo-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Polymath';
+    src: url('fonts/Polymath/PolymathDispDemo-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Polymath';
+    src: url('fonts/Polymath/PolymathDispDemo-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Polymath';
+    src: url('fonts/Polymath/PolymathDispDemo-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Polymath';
+    src: url('fonts/Polymath/PolymathDispDemo-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face - Bahnschrift (Body / UI) */
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('fonts/Bahnschrift/BAHNSCHRIFT%201.TTF') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('fonts/Bahnschrift/BAHNSCHRIFT.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('fonts/Bahnschrift/BAHNSCHRIFT%204.TTF') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('fonts/Bahnschrift/BAHNSCHRIFT%205.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* CSS Variables - Brand Palette */
 :root {
     --cybertec-radar: #1B92D0;      /* Radar Blue (Primary) */
     --cybertec-navy: #181D5E;       /* Command Navy (Institutional) */
-    --cybertec-graphite: #2B2F36;   /* Grafito Táctico (Secondary) */
+    --cybertec-graphite: #202020;   /* Grafito Táctico (Secondary) */
     --cybertec-base: #020617;       /* Dark Base */
     --cybertec-surface: #0f172a;    /* Surface */
     --cybertec-highlight: #1e293b;  /* Highlight */
@@ -74,11 +141,11 @@ body {
     background: linear-gradient(
         90deg,
         transparent 0%,
-        rgba(139, 92, 246, 0.04) 20%,
-        rgba(139, 92, 246, 0.18) 48%,
+        rgba(27, 146, 208, 0.04) 20%,
+        rgba(27, 146, 208, 0.18) 48%,
         rgba(255, 255, 255, 0.25) 50%,
-        rgba(139, 92, 246, 0.18) 52%,
-        rgba(139, 92, 246, 0.04) 80%,
+        rgba(27, 146, 208, 0.18) 52%,
+        rgba(27, 146, 208, 0.04) 80%,
         transparent 100%
     );
     animation: heroLaserSweep 1.6s cubic-bezier(0.4, 0, 0.2, 1) 0.3s 1 forwards;
@@ -96,22 +163,22 @@ body {
     background: linear-gradient(
         180deg,
         transparent 0%,
-        rgba(167, 139, 250, 0.8) 20%,
+        rgba(56, 189, 248, 0.8) 20%,
         rgba(255, 255, 255, 0.95) 50%,
-        rgba(167, 139, 250, 0.8) 80%,
+        rgba(56, 189, 248, 0.8) 80%,
         transparent 100%
     );
     filter: blur(0.5px);
-    box-shadow: 0 0 12px rgba(139, 92, 246, 0.9), 0 0 24px rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 12px rgba(27, 146, 208, 0.9), 0 0 24px rgba(27, 146, 208, 0.5);
 }
 
 .hero-laser-underline {
     height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(139,92,246,0.6), rgba(167,139,250,1), rgba(255,255,255,0.8), rgba(167,139,250,1), rgba(139,92,246,0.6), transparent);
+    background: linear-gradient(90deg, transparent, rgba(27,146,208,0.6), rgba(56,189,248,1), rgba(255,255,255,0.8), rgba(56,189,248,1), rgba(27,146,208,0.6), transparent);
     transform-origin: left center;
     transform: scaleX(0);
     animation: heroLaserReveal 1.4s cubic-bezier(0.4, 0, 0.2, 1) 0.5s 1 forwards;
-    box-shadow: 0 0 10px rgba(139, 92, 246, 0.7), 0 0 20px rgba(139, 92, 246, 0.4);
+    box-shadow: 0 0 10px rgba(27, 146, 208, 0.7), 0 0 20px rgba(27, 146, 208, 0.4);
 }
 
 /* Glassmorphism */
@@ -135,7 +202,7 @@ body {
 
 /* Text Gradients */
 .text-neon {
-    background: linear-gradient(135deg, #1B92D0 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #1B92D0 0%, #38bdf8 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -221,11 +288,11 @@ body {
 @keyframes laserPulse {
     0%, 100% {
         opacity: 0.4;
-        box-shadow: 0 0 6px rgba(139, 92, 246, 0.6);
+        box-shadow: 0 0 6px rgba(27, 146, 208, 0.6);
     }
     50% {
         opacity: 1;
-        box-shadow: 0 0 16px rgba(139, 92, 246, 1), 0 0 30px rgba(139, 92, 246, 0.4);
+        box-shadow: 0 0 16px rgba(27, 146, 208, 1), 0 0 30px rgba(27, 146, 208, 0.4);
     }
 }
 
@@ -241,7 +308,7 @@ body {
     position: relative;
     height: 2px;
     width: 100%;
-    background: linear-gradient(90deg, transparent 0%, rgba(139,92,246,0.15) 20%, rgba(139,92,246,0.6) 50%, rgba(139,92,246,0.15) 80%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, rgba(27,146,208,0.15) 20%, rgba(27,146,208,0.6) 50%, rgba(27,146,208,0.15) 80%, transparent 100%);
     animation: laserPulse 3s ease-in-out infinite;
     overflow: hidden;
 }
@@ -253,7 +320,7 @@ body {
     left: 0;
     width: 40%;
     height: 4px;
-    background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.9), rgba(255,255,255,0.8), rgba(167, 139, 250, 0.9), transparent);
+    background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.9), rgba(255,255,255,0.8), rgba(56, 189, 248, 0.9), transparent);
     filter: blur(1px);
     animation: laserScan 3.5s ease-in-out infinite;
     border-radius: 2px;
@@ -272,7 +339,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background: linear-gradient(90deg, rgba(27,146,208,0.8), rgba(139,92,246,0.8));
+    background: linear-gradient(90deg, rgba(27,146,208,0.8), rgba(56,189,248,0.8));
     transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 0 6px rgba(27,146,208,0.5);
 }

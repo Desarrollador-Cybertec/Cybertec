@@ -114,9 +114,9 @@
         </div>
 
         <!-- Software Dev Banner -->
-        <div class="mt-6 bg-gradient-to-r from-blue-900/80 to-purple-900/80 rounded-3xl p-1 p-[1px]" data-aos="zoom-in" data-aos-delay="200">
+        <div class="mt-6 bg-gradient-to-r from-blue-900/80 to-[rgb(24,29,94)]/80 rounded-3xl p-1 p-[1px]" data-aos="zoom-in" data-aos-delay="200">
             <div class="bg-slate-950 rounded-[22px] px-5 sm:px-8 py-8 sm:py-10 relative overflow-hidden">
-                <div class="absolute top-0 right-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -mr-16 -mt-16"></div>
+                <div class="absolute top-0 right-0 w-64 h-64 bg-[rgb(27,146,208)]/20 rounded-full blur-3xl -mr-16 -mt-16"></div>
                 
                 <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div>

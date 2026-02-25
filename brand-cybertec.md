@@ -103,8 +103,7 @@ La marca utiliza una **tríada cromática fija**.
 
 * HEX: `#1B92D0`
 * RGB: 27, 146, 208
-* CMYK: 77%, 29%, 0%, 0%
-* Pantone: 299 C
+* CMYK: 87%, 30%, 0%, 18%
 * CSS variable: `--cybertec-radar: #1B92D0;`
 
 Uso:
@@ -120,7 +119,7 @@ Uso:
 
 * RGB: 24, 29, 94
 * HEX: `#181D5E`
-* CMYK: 100%, 95%, 35%, 25%
+* CMYK: 74%, 69%, 0%, 63%
 * CSS variable: `--cybertec-navy: #181D5E;`
 
 Uso:
@@ -133,10 +132,10 @@ Uso:
 
 ## 3.3 Grafito Táctico (Armor Gray)
 
-* RGB: 43, 47, 54
-* HEX: `#2B2F36`
-* CMYK: 75%, 65%, 60%, 79%
-* CSS variable: `--cybertec-graphite: #2B2F36;`
+* RGB: 32, 32, 32
+* HEX: `#202020`
+* CMYK: 0%, 0%, 0%, 87%
+* CSS variable: `--cybertec-graphite: #202020;`
 
 Uso:
 

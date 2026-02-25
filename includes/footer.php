@@ -9,13 +9,18 @@
 <section class="py-8 lg:py-12 bg-slate-900 border-y border-slate-800 overflow-hidden">
     <div class="container mx-auto px-6 text-center">
         <p class="text-slate-500 text-xs font-bold uppercase tracking-widest mb-8">Tecnologías que implementamos</p>
-        <div class="flex flex-wrap justify-center gap-6 sm:gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500" data-aos="zoom-in">
-            <i class="fab fa-microsoft text-3xl sm:text-4xl hover:text-blue-500"></i>
-            <i class="fab fa-aws text-3xl sm:text-4xl hover:text-orange-500"></i>
-            <i class="bi bi-server text-3xl sm:text-4xl hover:text-green-500"></i>
-            <i class="fab fa-linux text-3xl sm:text-4xl hover:text-yellow-500"></i>
-            <i class="fab fa-google text-3xl sm:text-4xl hover:text-red-500"></i>
-            <i class="fab fa-docker text-3xl sm:text-4xl hover:text-blue-400"></i>
+        <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-5 sm:gap-x-12 sm:gap-y-6 opacity-50 grayscale hover:grayscale-0 transition-all duration-500" data-aos="zoom-in">
+            <i class="fab fa-microsoft text-3xl sm:text-4xl hover:text-blue-500 transition-colors" title="Microsoft"></i>
+            <img src="assets/icons/fortinet.png" alt="Fortinet" title="Fortinet" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-aws text-3xl sm:text-4xl hover:text-orange-500 transition-colors" title="AWS"></i>
+            <img src="assets/icons/hikvision.png" alt="Hikvision" title="Hikvision" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-linux text-3xl sm:text-4xl hover:text-yellow-500 transition-colors" title="Linux"></i>
+            <img src="assets/icons/nextcloud.png" alt="Nextcloud" title="Nextcloud" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-google text-3xl sm:text-4xl hover:text-red-500 transition-colors" title="Google"></i>
+            <img src="assets/icons/mikrotik.png" alt="MikroTik" title="MikroTik" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-docker text-3xl sm:text-4xl hover:text-blue-400 transition-colors" title="Docker"></i>
+            <img src="assets/icons/glpi.png" alt="GLPI" title="GLPI" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-plex text-3xl sm:text-4xl hover:text-orange-400 transition-colors" title="Plex"></i>
         </div>
     </div>
 </section>
@@ -24,7 +29,7 @@
 <footer id="contacto" class="relative bg-slate-950 pt-20 lg:pt-28 pb-10 border-t border-slate-900">
     <div class="container mx-auto px-4 sm:px-6 relative z-10">
         
-        <div class="bg-gradient-to-r from-[rgb(24,29,94)]/20 to-violet-900/20 rounded-2xl sm:rounded-3xl p-6 sm:p-12 border border-white/5 text-center mb-10 sm:mb-16 backdrop-blur relative overflow-hidden" data-aos="fade-up">
+        <div class="bg-gradient-to-r from-[rgb(24,29,94)]/20 to-[rgb(27,146,208)]/10 rounded-2xl sm:rounded-3xl p-6 sm:p-12 border border-white/5 text-center mb-10 sm:mb-16 backdrop-blur relative overflow-hidden" data-aos="fade-up">
             <div class="absolute top-0 right-0 p-32 bg-[rgb(27,146,208)]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
             
             <h2 class="text-2xl sm:text-4xl font-display font-bold text-white mb-4 sm:mb-6" data-aos="fade-up" data-aos-delay="100">¿Listo para blindar su empresa?</h2>
@@ -42,11 +47,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 border-t border-slate-900 pt-10 sm:pt-14">
             <div class="col-span-1 sm:col-span-2" data-aos="fade-right">
             <div class="text-2xl font-display font-black text-white mb-6">
-                <img src="assets/media/Logo-Footer.png" alt="Cybertec Logo" class="h-12 object-contain mb-4">
+                <img src="assets/media/Logo-Banner.png" alt="Cybertec Logo" class="h-12 object-contain mb-4">
             </div>
                 <p class="text-slate-500 max-w-sm mb-6">
-                    Expertos en Informática y Telecomunicaciones SAS. <br>
-                    Transformando retos tecnológicos en oportunidades de crecimiento seguro.
+                    Transformamos retos tecnológicos en oportunidades de crecimiento seguro.
                 </p>
                 <div class="flex gap-4">
                     <a href="https://co.linkedin.com/in/cybertec-informática-y-telecomunicaciones-sas-b62a2a397" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg bg-slate-900 flex items-center justify-center text-slate-400 hover:bg-[rgb(27,146,208)] hover:text-white transition-all"><i class="bi bi-linkedin"></i></a>

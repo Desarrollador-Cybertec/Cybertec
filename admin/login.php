@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Background decorativo -->
     <div class="fixed inset-0 -z-10">
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-[rgb(27,146,208)]/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
-        <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-violet-600/20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[rgb(24,29,94)]/20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"></div>
     </div>
     
     <!-- Login Container -->

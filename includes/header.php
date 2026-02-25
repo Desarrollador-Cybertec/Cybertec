@@ -82,10 +82,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts (Polymath + Bahnschrift substitutes) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Roboto+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Preload Brand Fonts -->
+    <link rel="preload" href="assets/fonts/Bahnschrift/BAHNSCHRIFT.TTF" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Polymath/PolymathDispDemo-Bold.otf" as="font" type="font/otf" crossorigin>
     
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -105,8 +104,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Bahnschrift', 'Roboto Condensed', 'sans-serif'],
-                        display: ['Polymath', 'IBM Plex Mono', 'monospace'],
+                        sans: ['Bahnschrift', 'sans-serif'],
+                        display: ['Polymath', 'Bahnschrift', 'sans-serif'],
                     },
                     colors: {
                         cyber: {
@@ -115,8 +114,7 @@
                             highlight: '#1e293b',   // Highlight
                             radar: '#1B92D0',       // Radar Blue (Primary)
                             navy: '#181D5E',        // Command Navy (Institutional)
-                            graphite: '#2B2F36',    // Grafito Táctico (Secondary)
-                            purple: '#8b5cf6',      // Violet accent
+                            graphite: '#202020',    // Grafito Táctico (Secondary)
                             success: '#10b981',     // Emerald
                         }
                     },
@@ -159,7 +157,7 @@
             
             <!-- Logo con laser line -->
             <a href="#" class="relative group">
-                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 sm:h-12 md:h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(139,92,246,0.5)]">
+                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 sm:h-12 md:h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(27,146,208,0.5)]">
                 <!-- Laser line debajo del logo -->
                 <div class="nav-laser-line w-full mt-1"></div>
             </a>
@@ -178,7 +176,7 @@
             <!-- Mobile Menu Button -->
             <button class="md:hidden relative flex flex-col gap-1.5 p-2 group/ham" id="mobile-menu-btn" aria-label="Menu">
                 <span class="w-6 h-0.5 bg-slate-400 group-hover/ham:bg-[rgb(27,146,208)] transition-all duration-300 group-hover/ham:w-7"></span>
-                <span class="w-4 h-0.5 bg-violet-400 transition-all duration-300 group-hover/ham:w-7"></span>
+                <span class="w-4 h-0.5 bg-[rgb(27,146,208)] transition-all duration-300 group-hover/ham:w-7"></span>
                 <span class="w-6 h-0.5 bg-slate-400 group-hover/ham:bg-[rgb(27,146,208)] transition-all duration-300 group-hover/ham:w-7"></span>
             </button>
         </div>
@@ -188,7 +186,7 @@
             <div class="border-t border-white/5 bg-slate-950/90 backdrop-blur-xl px-6 py-6 flex flex-col gap-5 text-sm font-medium text-slate-400">
                 <a href="#inicio" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
                 <a href="#servicios" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
-                <a href="#nosotros" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-violet-400 mr-2"></i>Nosotros</a>
+                <a href="#nosotros" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-[rgb(27,146,208)] mr-2"></i>Nosotros</a>
                 <a href="#contacto" class="mt-2 text-center py-3 rounded-xl bg-[rgb(27,146,208)]/10 border border-[rgb(27,146,208)]/30 text-[rgb(27,146,208)] font-bold hover:bg-[rgb(27,146,208)] hover:text-white transition-all duration-300">Contactar</a>
             </div>
         </div>
