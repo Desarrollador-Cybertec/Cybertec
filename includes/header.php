@@ -147,6 +147,15 @@
         }
     </script>
 </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGJ2SFT4EJ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KGJ2SFT4EJ');
+    </script>
 <body class="antialiased font-sans overflow-x-hidden">
     <!-- Navbar -->
     <nav class="fixed w-full z-50 transition-all duration-500" id="main-nav">
@@ -167,6 +176,24 @@
                 <a href="#inicio" class="nav-link hover:text-white transition-colors duration-200">Inicio</a>
                 <a href="#servicios" class="nav-link hover:text-white transition-colors duration-200">Soluciones</a>
                 <a href="#nosotros" class="nav-link hover:text-white transition-colors duration-200">Nosotros</a>
+                <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden')" class="nav-link hover:text-white transition-colors duration-200 cursor-pointer">Trabaja con nosotros</button>
+                
+                <!-- Accesos Directos (Iconos) -->
+                <div class="flex items-center gap-4 pl-4 border-l border-white/10">
+                    <a href="https://helpdesk.cybertecit.com" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/GLPII.png" alt="GLPI" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">GLPI - Soporte</span>
+                    </a>
+                    <a href="https://webmail.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/Correo.png" alt="Correo" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Correo Corporativo</span>
+                    </a>
+                    <a href="https://nextcloud.net.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/Nextcloudd.png" alt="Nextcloud" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Nextcloud - Nube</span>
+                    </a>
+                </div>
+                
                 <a href="#contacto" class="relative px-7 py-3 rounded-full text-base font-bold text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/30 overflow-hidden group/btn transition-all duration-300 hover:text-white hover:border-[rgb(27,146,208)]" style="background: rgba(27,146,208,0.08);">
                     <span class="absolute inset-0 bg-[rgb(27,146,208)] scale-x-0 group-hover/btn:scale-x-100 origin-left transition-transform duration-300 rounded-full"></span>
                     <span class="relative">Contactar</span>
@@ -187,10 +214,70 @@
                 <a href="#inicio" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
                 <a href="#servicios" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
                 <a href="#nosotros" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-[rgb(27,146,208)] mr-2"></i>Nosotros</a>
+                <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden')" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-envelope-fill text-[rgb(27,146,208)] mr-2"></i>Trabaja con nosotros</button>
+                
+                <!-- Accesos Directos Móvil -->
+                <div class="flex items-center gap-4 pt-3 mt-3 border-t border-white/10">
+                    <a href="https://glpi.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/glpi.png" alt="GLPI" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">GLPI - Soporte</span>
+                    </a>
+                    <a href="https://mail.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/mail.svg" alt="Correo" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Correo Corporativo</span>
+                    </a>
+                    <a href="https://nube.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/nextcloud.png" alt="Nextcloud" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Nextcloud - Nube</span>
+                    </a>
+                </div>
+                
                 <a href="#contacto" class="mt-2 text-center py-3 rounded-xl bg-[rgb(27,146,208)]/10 border border-[rgb(27,146,208)]/30 text-[rgb(27,146,208)] font-bold hover:bg-[rgb(27,146,208)] hover:text-white transition-all duration-300">Contactar</a>
             </div>
         </div>
     </nav>
+
+    <!-- Modal Trabaja con Nosotros -->
+    <div id="modalTrabaja" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm transition-opacity duration-300">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-8 max-w-md w-full mx-4 shadow-2xl">
+            <!-- Cerrar Modal -->
+            <button onclick="document.getElementById('modalTrabaja').classList.add('hidden')" class="absolute top-4 right-4 text-slate-400 hover:text-white transition-colors">
+                <i class="bi bi-x-lg text-xl"></i>
+            </button>
+            
+            <!-- Contenido Modal -->
+            <div class="text-center">
+                <i class="bi bi-briefcase text-[rgb(27,146,208)] text-4xl mb-4 block"></i>
+                <h2 class="text-2xl font-bold text-white mb-4">¿Quieres formar parte del equipo?</h2>
+                
+                <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 mb-6 text-left">
+                    <p class="text-slate-300 text-sm mb-4">
+                        ¡Nos encantaría conocerte! Si te interesa formar parte de nuestro equipo en Cybertec, envíanos tu CV al siguiente correo:
+                    </p>
+                    
+                    <div class="bg-slate-900 border border-[rgb(27,146,208)]/30 rounded-lg p-4 mb-4">
+                        <p class="text-xs text-slate-400 mb-1">Correo para candidaturas:</p>
+                        <a href="mailto:gestionhumana@cybertec.com.co" class="text-[rgb(27,146,208)] font-bold text-lg hover:text-white transition-colors break-all">
+                            gestionhumana@cybertec.com.co
+                        </a>
+                    </div>
+                    
+                    <p class="text-slate-300 text-sm">
+                        En el asunto incluye la posición de interés y adjunta tu CV en formato PDF o Word.
+                    </p>
+                </div>
+                
+                <div class="space-y-3">
+                    <a href="mailto:gestionhumana@cybertec.com.co?subject=Candidatura%20Cybertec" class="inline-block w-full py-3 px-4 bg-[rgb(27,146,208)] text-white font-bold rounded-lg hover:bg-[rgb(27,146,208)]/80 transition-colors duration-200">
+                        <i class="bi bi-envelope mr-2"></i>Enviar Candidatura
+                    </a>
+                    <button onclick="document.getElementById('modalTrabaja').classList.add('hidden')" class="w-full py-3 px-4 bg-slate-800 text-slate-300 font-bold rounded-lg hover:bg-slate-700 transition-colors duration-200">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Mobile menu toggle
@@ -205,6 +292,12 @@
                 nav.querySelector('.absolute').style.background = 'rgba(2,6,23,0.92)';
             } else {
                 nav.querySelector('.absolute').style.background = '';
+            }
+        });
+        // Cerrar modal al hacer clic fuera de él
+        document.getElementById('modalTrabaja').addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.classList.add('hidden');
             }
         });
     </script>

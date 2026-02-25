@@ -36,12 +36,35 @@
             <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-6 sm:mb-10" data-aos="fade-up" data-aos-delay="150">
                 Agende una auditoría gratuita de seguridad e infraestructura hoy mismo. Sin compromisos, solo expertos analizando sus necesidades.
             </p>
-            <form class="max-w-sm mx-auto flex flex-col gap-4 sm:gap-3" data-aos="zoom-in" data-aos-delay="200">
-                <input type="email" placeholder="Su correo corporativo" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base" required aria-label="Correo corporativo">
-                <a href="https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20agendar%20una%20auditor%C3%ADa%20gratuita%20de%20seguridad%20e%20infraestructura." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center gap-2 bg-[rgb(27,146,208)] text-white font-bold px-6 py-4 rounded-xl hover:brightness-110 transition-all" style="box-shadow: 0 10px 15px -3px rgba(27,146,208,0.25);">
-                    <i class="bi bi-whatsapp text-base sm:text-lg"></i> Agendar por WhatsApp
-                </a>
-            </form>
+            <div class="max-w-sm mx-auto space-y-4 sm:space-y-3" data-aos="zoom-in" data-aos-delay="200">
+                <!-- Email Input -->
+                <div>
+                    <input type="email" id="emailCotizacion" placeholder="Su correo corporativo" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base" required aria-label="Correo corporativo">
+                </div>
+
+                <!-- Select Cotización (oculto hasta llenar email) -->
+                <div id="divSelectCotizacion" class="hidden opacity-0 transition-opacity duration-300">
+                    <select id="selectCotizacion" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base" required aria-label="Tipo de cotización">
+                        <option value="" selected disabled>Selecciona el tipo de cotización</option>
+                        <option value="Seguridad Física">Seguridad Física - CCTV y Control de Acceso</option>
+                        <option value="Seguridad Digital">Seguridad Digital - Firewalls y Antivirus</option>
+                        <option value="Soporte TI">Soporte TI - Mantenimiento y Service Desk</option>
+                        <option value="Infraestructura">Infraestructura - Redes y Telecomunicaciones</option>
+                        <option value="Cloud y Software">Cloud y Software - Soluciones en Nube</option>
+                        <option value="Auditoría Integral">Auditoría Integral - Evaluación Completa</option>
+                    </select>
+                </div>
+
+                <!-- Teléfono (oculto hasta seleccionar cotización) -->
+                <div id="divTelefono" class="hidden opacity-0 transition-opacity duration-300">
+                    <input type="tel" id="telefonoCotizacion" placeholder="Su número de teléfono" class="w-full bg-slate-900 border border-slate-700 text-white px-4 py-4 rounded-xl focus:outline-none focus:border-[rgb(27,146,208)] transition-colors placeholder:text-slate-500 text-sm sm:text-base" required aria-label="Número de teléfono">
+                </div>
+
+                <!-- Botón Enviar (deshabilitado hasta completar formulario) -->
+                <button type="button" id="btnEnviarCotizacion" disabled class="w-full flex items-center justify-center gap-2 bg-slate-700 text-slate-400 font-bold px-6 py-4 rounded-xl opacity-50 cursor-not-allowed transition-all" style="box-shadow: 0 10px 15px -3px rgba(27,146,208,0.15);">
+                    <i class="bi bi-whatsapp text-base sm:text-lg"></i> Solicitar Cotización por WhatsApp
+                </button>
+            </div>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 border-t border-slate-900 pt-10 sm:pt-14">
@@ -99,6 +122,95 @@
         mirror: false,          // Si los elementos se deben animar cuando salen de la vista
         anchorPlacement: 'top-bottom' // Posición del ancla para disparar la animación
     });
+
+    // Flujo de cotización dinámico
+    const emailInput = document.getElementById('emailCotizacion');
+    const selectDiv = document.getElementById('divSelectCotizacion');
+    const selectCotizacion = document.getElementById('selectCotizacion');
+    const telefonoDiv = document.getElementById('divTelefono');
+    const telefonoInput = document.getElementById('telefonoCotizacion');
+    const btnEnviar = document.getElementById('btnEnviarCotizacion');
+
+    // Cuando se llena el email, mostrar select
+    emailInput.addEventListener('input', function() {
+        if (this.value.trim() !== '' && isValidEmail(this.value)) {
+            selectDiv.classList.remove('hidden');
+            setTimeout(() => selectDiv.classList.remove('opacity-0'), 10);
+        } else {
+            selectDiv.classList.add('opacity-0');
+            setTimeout(() => selectDiv.classList.add('hidden'), 300);
+            selectCotizacion.value = '';
+            telefonoDiv.classList.add('opacity-0');
+            setTimeout(() => telefonoDiv.classList.add('hidden'), 300);
+            telefonoInput.value = '';
+            btnEnviar.disabled = true;
+            btnEnviar.classList.add('opacity-50', 'cursor-not-allowed');
+            btnEnviar.classList.remove('opacity-100', 'cursor-pointer');
+            btnEnviar.style.backgroundColor = '#334155';
+            btnEnviar.style.color = '#94a3b8';
+        }
+    });
+
+    // Cuando se selecciona cotización, mostrar teléfono
+    selectCotizacion.addEventListener('change', function() {
+        if (this.value !== '') {
+            telefonoDiv.classList.remove('hidden');
+            setTimeout(() => telefonoDiv.classList.remove('opacity-0'), 10);
+        } else {
+            telefonoDiv.classList.add('opacity-0');
+            setTimeout(() => telefonoDiv.classList.add('hidden'), 300);
+            telefonoInput.value = '';
+            btnEnviar.disabled = true;
+            btnEnviar.classList.add('opacity-50', 'cursor-not-allowed');
+            btnEnviar.classList.remove('opacity-100', 'cursor-pointer');
+            btnEnviar.style.backgroundColor = '#334155';
+            btnEnviar.style.color = '#94a3b8';
+        }
+    });
+
+    // Cuando se llena el teléfono, habilitar botón
+    telefonoInput.addEventListener('input', function() {
+        if (this.value.trim() !== '') {
+            btnEnviar.disabled = false;
+            btnEnviar.classList.remove('opacity-50', 'cursor-not-allowed');
+            btnEnviar.classList.add('opacity-100', 'cursor-pointer');
+            btnEnviar.style.backgroundColor = 'rgb(27,146,208)';
+            btnEnviar.style.color = 'white';
+        } else {
+            btnEnviar.disabled = true;
+            btnEnviar.classList.add('opacity-50', 'cursor-not-allowed');
+            btnEnviar.classList.remove('opacity-100', 'cursor-pointer');
+            btnEnviar.style.backgroundColor = '#334155';
+            btnEnviar.style.color = '#94a3b8';
+        }
+    });
+
+    // Cuando se hace clic en enviar
+    btnEnviar.addEventListener('click', function() {
+        if (btnEnviar.disabled) return;
+
+        const email = emailInput.value;
+        const cotizacion = selectCotizacion.value;
+        const telefono = telefonoInput.value;
+
+        if (!email || !cotizacion || !telefono) {
+            alert('Por favor completa todos los campos');
+            return;
+        }
+
+        // Generar mensaje pre-cargado para WhatsApp
+        const mensajeWhatsApp = `Hola Cybertec, me gustaría solicitar una cotización para:\n\nTipo de servicio: ${cotizacion}\nCorreo: ${email}\nTeléfono: ${telefono}\n\n¿Podrían proporcionarme más información?`;
+        const urlWhatsApp = `https://wa.me/573175133375?text=${encodeURIComponent(mensajeWhatsApp)}`;
+
+        // Abrir WhatsApp
+        window.open(urlWhatsApp, '_blank');
+    });
+
+    // Función para validar email
+    function isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
 </script>
 
 </body>
