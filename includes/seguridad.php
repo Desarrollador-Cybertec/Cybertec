@@ -32,7 +32,7 @@
                         <p class="text-slate-400 leading-relaxed mb-6">
                             Protección tangible para sus instalaciones. Integramos hardware de última generación con software de gestión centralizada para videovigilancia, control de acceso y alarmas.
                         </p>
-                        <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800" class="rounded-xl w-full border border-white/10 opacity-80" alt="CCTV">
+                        <img src="assets/media/cctv.png" class="rounded-xl w-full border border-white/10 opacity-80" alt="CCTV">
                     </div>
                 </div>
                 

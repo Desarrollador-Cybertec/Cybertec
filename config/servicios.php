@@ -13,7 +13,7 @@ $servicios = [
         "color" => "text-emerald-400",
         "bg_gradient" => "from-emerald-900/40 to-slate-900",
         "span" => "md:col-span-2 lg:col-span-3",
-        "img" => "https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800",
+        "img" => "assets/media/cctv.png",
         "whatsapp" => "https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Seguridad%20F%C3%ADsica%3A%20CCTV%2C%20control%20de%20acceso%20y%20alarmas.%20%C2%BFPueden%20ayudarme%3F",
         "puntos" => [
             "Sistemas de Videovigilancia Avanzada: suministro e instalación de cámaras IP con grabación automática, detección de movimiento e IA para vigilancia precisa.",
@@ -45,7 +45,7 @@ $servicios = [
         "color" => "text-cyan-400",
         "bg_gradient" => "from-cyan-900/40 to-slate-900",
         "span" => "md:col-span-2 lg:col-span-2",
-        "img" => "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=800",
+        "img" => "assets/media/software.png",
         "whatsapp" => "https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Soluciones%20Cloud%20%26%20Software%3A%20hosting%2C%20backups%20y%20desarrollo%20a%20la%20medida.%20%C2%BFPueden%20ayudarme%3F",
         "puntos" => [
             "Hosting web de alta disponibilidad, dominios (.com, .co, .net) y correos corporativos personalizados con soporte 24/7.",
@@ -61,7 +61,7 @@ $servicios = [
         "color" => "text-[rgb(27,146,208)]",
         "bg_gradient" => "from-[rgb(27,146,208)]/40 to-slate-900",
         "span" => "md:col-span-2 lg:col-span-3",
-        "img" => "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800",
+        "img" => "assets/media/soporte.png",
         "whatsapp" => "https://wa.me/573175133375?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Soporte%20TI%20%26%20Gesti%C3%B3n%20TIC%3A%20service%20desk%2C%20outsourcing%20y%20soporte%2024%2F7.%20%C2%BFPueden%20ayudarme%3F",
         "puntos" => [
             "Service Desk Presencial: soporte técnico en equipos de cómputo, periféricos e infraestructura TI con personal idóneo y trazabilidad de tickets.",
