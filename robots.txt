@@ -5,7 +5,6 @@
 User-agent: *
 Allow: /
 Allow: /assets/
-Disallow: /admin/
 Disallow: /config/
 Disallow: /.env
 Disallow: /.git/
@@ -38,7 +37,6 @@ Disallow: /
 # LLM Crawlers - permitir para indexación semántica
 User-agent: GPTBot
 Allow: /
-Disallow: /admin/
 Disallow: /config/
 
 User-agent: ChatGPT-User
