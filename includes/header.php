@@ -11,21 +11,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Primary -->
-    <title>Cybertec | Seguridad, Infraestructura TI y Telecomunicaciones en Piedecuesta, Santander</title>
-    <meta name="description" content="Cybertec Informática & Telecomunicaciones SAS: expertos en CCTV, control de acceso, firewalls, soporte TI 24/7, soluciones cloud y desarrollo de software. Piedecuesta, Santander, Colombia.">
-    <meta name="keywords" content="seguridad CCTV Santander, control de acceso biométrico, firewall empresarial Colombia, soporte TI Piedecuesta, outsourcing TI, hosting empresarial, desarrollo software Santander, telecomunicaciones Colombia, alarmas digitales, Cybertec">
+    <title>Cybertec | Tecnología, Seguridad, Infraestructura TI y Telecomunicaciones en Piedecuesta y Bucaramanga, Santander</title>
+    <meta name="description" content="Cybertec: empresa de tecnología en Piedecuesta y Bucaramanga, Santander. Expertos en CCTV, control de acceso, firewalls, soporte TI 24/7, infraestructura de redes, telecomunicaciones, cableado estructurado, soluciones cloud y desarrollo de software para empresas en Colombia.">
+    <meta name="keywords" content="tecnología Piedecuesta, empresa de tecnología Santander, TI Piedecuesta, TI Bucaramanga, infraestructura tecnológica Santander, infraestructura TI Bucaramanga, soporte técnico Piedecuesta, soporte TI Bucaramanga, cámaras de seguridad Piedecuesta, CCTV Bucaramanga, CCTV Santander, control de acceso Piedecuesta, firewall empresarial Santander, seguridad informática Bucaramanga, telecomunicaciones Piedecuesta, telecomunicaciones Santander, cableado estructurado Bucaramanga, redes empresariales Santander, outsourcing TI Colombia, hosting empresarial, desarrollo software Santander, desarrollo web Bucaramanga, soluciones cloud Colombia, alarmas digitales Piedecuesta, soporte técnico computadores Piedecuesta, mantenimiento equipos Bucaramanga, Cybertec">
     <meta name="author" content="Cybertec Informática & Telecomunicaciones SAS">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="geo.region" content="CO-SAN">
     <meta name="geo.placename" content="Piedecuesta, Santander, Colombia">
+    <meta name="geo.position" content="6.9986;-73.0577">
+    <meta name="ICBM" content="6.9986, -73.0577">
+    <meta name="language" content="es">
+    <meta name="distribution" content="Colombia">
+    <meta name="revisit-after" content="7 days">
     <link rel="canonical" href="https://www.cybertec.com.co/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.cybertec.com.co/sitemap.xml">
 
     <!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.cybertec.com.co/">
-    <meta property="og:title" content="Cybertec | Seguridad, Infraestructura TI y Telecomunicaciones">
-    <meta property="og:description" content="Expertos en CCTV, control de acceso, firewalls, soporte TI 24/7, soluciones cloud y desarrollo de software para empresas en Colombia.">
+    <meta property="og:title" content="Cybertec | Empresa de Tecnología, Seguridad e Infraestructura TI en Piedecuesta y Bucaramanga">
+    <meta property="og:description" content="Empresa de tecnología en Piedecuesta y Bucaramanga. Expertos en CCTV, firewalls, soporte TI 24/7, infraestructura de redes, cloud y desarrollo de software para empresas en Santander, Colombia.">
     <meta property="og:image" content="https://www.cybertec.com.co/assets/media/og-preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,8 +39,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Cybertec | Seguridad e Infraestructura TI">
-    <meta name="twitter:description" content="Expertos en seguridad física, digital, soporte TI, cloud y desarrollo de software. Piedecuesta, Santander.">
+    <meta name="twitter:title" content="Cybertec | Tecnología, Seguridad e Infraestructura TI en Santander">
+    <meta name="twitter:description" content="Empresa de tecnología líder en Piedecuesta y Bucaramanga. Seguridad física, digital, soporte TI, infraestructura de redes, cloud y desarrollo de software.">
     <meta name="twitter:image" content="https://www.cybertec.com.co/assets/media/og-preview.png">
 
     <!-- Structured Data: LocalBusiness -->
@@ -43,11 +48,18 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "@id": "https://www.cybertec.com.co/#business",
       "name": "Cybertec Informática & Telecomunicaciones SAS",
-      "description": "Expertos en seguridad física (CCTV, control de acceso), seguridad digital, soporte TI 24/7, soluciones cloud, infraestructura de redes y desarrollo de software.",
+      "alternateName": "Cybertec",
+      "description": "Empresa de tecnología en Piedecuesta y Bucaramanga, Santander. Expertos en seguridad física (CCTV, control de acceso), seguridad digital, soporte TI 24/7, infraestructura de redes, telecomunicaciones, soluciones cloud y desarrollo de software.",
       "url": "https://www.cybertec.com.co",
       "telephone": "+573175133375",
       "email": "ventas@cybertec.com.co",
+      "image": "https://www.cybertec.com.co/assets/media/og-preview.png",
+      "logo": "https://www.cybertec.com.co/assets/media/Logo-Banner.png",
+      "priceRange": "$$",
+      "currenciesAccepted": "COP",
+      "paymentAccepted": "Efectivo, Transferencia, Tarjeta",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Piedecuesta",
@@ -59,19 +71,105 @@
         "latitude": "6.9986",
         "longitude": "-73.0577"
       },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Piedecuesta",
+          "containedInPlace": { "@type": "State", "name": "Santander" }
+        },
+        {
+          "@type": "City",
+          "name": "Bucaramanga",
+          "containedInPlace": { "@type": "State", "name": "Santander" }
+        },
+        {
+          "@type": "City",
+          "name": "Floridablanca",
+          "containedInPlace": { "@type": "State", "name": "Santander" }
+        },
+        {
+          "@type": "City",
+          "name": "Girón",
+          "containedInPlace": { "@type": "State", "name": "Santander" }
+        },
+        {
+          "@type": "State",
+          "name": "Santander",
+          "containedInPlace": { "@type": "Country", "name": "Colombia" }
+        }
+      ],
       "openingHours": "Mo-Fr 08:00-18:00",
       "sameAs": [
         "https://co.linkedin.com/in/cybertec-inform%C3%A1tica-y-telecomunicaciones-sas-b62a2a397",
         "https://www.instagram.com/cybertec.sas",
         "https://www.facebook.com/share/1GKSJvkgE4/"
       ],
-      "serviceType": [
-        "Seguridad Física y CCTV",
-        "Seguridad Digital y Firewalls",
-        "Soporte TI y Service Desk",
-        "Infraestructura de Redes",
-        "Soluciones Cloud y Software"
-      ]
+      "knowsAbout": [
+        "Tecnología en Piedecuesta",
+        "Infraestructura TI en Santander",
+        "Seguridad CCTV Bucaramanga",
+        "Soporte técnico Piedecuesta",
+        "Telecomunicaciones Santander",
+        "Cableado estructurado",
+        "Redes empresariales",
+        "Desarrollo de software"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Tecnología Cybertec",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Seguridad Física - CCTV y Control de Acceso",
+              "description": "Instalación de cámaras de seguridad, videovigilancia CCTV, control de acceso biométrico y alarmas digitales en Piedecuesta, Bucaramanga y Santander.",
+              "areaServed": "Santander, Colombia",
+              "provider": { "@id": "https://www.cybertec.com.co/#business" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Seguridad Digital - Firewalls y Ciberseguridad",
+              "description": "Implementación de firewalls empresariales, antivirus corporativo, segmentación de redes y consultoría en seguridad informática en Santander.",
+              "areaServed": "Santander, Colombia",
+              "provider": { "@id": "https://www.cybertec.com.co/#business" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Soporte TI y Service Desk",
+              "description": "Soporte técnico presencial y remoto 24/7, outsourcing TI, mantenimiento de equipos, hosting y correo corporativo en Piedecuesta y Bucaramanga.",
+              "areaServed": "Santander, Colombia",
+              "provider": { "@id": "https://www.cybertec.com.co/#business" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Infraestructura Tecnológica y Redes",
+              "description": "Diseño e instalación de redes LAN/WAN, cableado estructurado, telefonía IP, redes WiFi corporativas y suministro de servidores en Santander.",
+              "areaServed": "Santander, Colombia",
+              "provider": { "@id": "https://www.cybertec.com.co/#business" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Soluciones Cloud y Desarrollo de Software",
+              "description": "Desarrollo de software a la medida, aplicaciones web y móviles, soluciones cloud, backups en nube y licenciamiento de software en Colombia.",
+              "areaServed": "Colombia",
+              "provider": { "@id": "https://www.cybertec.com.co/#business" }
+            }
+          }
+        ]
+      }
     }
     </script>
     
@@ -211,28 +309,28 @@
         <!-- Mobile Menu -->
         <div class="hidden md:hidden" id="mobile-menu">
             <div class="border-t border-white/5 bg-slate-950/90 backdrop-blur-xl px-6 py-6 flex flex-col gap-5 text-sm font-medium text-slate-400">
-                <a href="#inicio" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
-                <a href="#servicios" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
-                <a href="#nosotros" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-[rgb(27,146,208)] mr-2"></i>Nosotros</a>
-                <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden')" class="hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-envelope-fill text-[rgb(27,146,208)] mr-2"></i>Trabaja con nosotros</button>
+                <a href="#inicio" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
+                <a href="#servicios" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
+                <a href="#nosotros" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-[rgb(27,146,208)] mr-2"></i>Nosotros</a>
+                <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden'); document.getElementById('mobile-menu').classList.add('hidden');" class="text-left hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-envelope-fill text-[rgb(27,146,208)] mr-2"></i>Trabaja con nosotros</button>
                 
                 <!-- Accesos Directos Móvil -->
                 <div class="flex items-center gap-4 pt-3 mt-3 border-t border-white/10">
-                    <a href="https://glpi.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/glpi.png" alt="GLPI" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                    <a href="https://helpdesk.cybertecit.com" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/GLPII.png" alt="GLPI" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">GLPI - Soporte</span>
                     </a>
-                    <a href="https://mail.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/mail.svg" alt="Correo" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                    <a href="https://webmail.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/Correo.png" alt="Correo" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Correo Corporativo</span>
                     </a>
-                    <a href="https://nube.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/nextcloud.png" alt="Nextcloud" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                    <a href="https://nextcloud.net.co" target="_blank" rel="noreferrer" class="relative group">
+                        <img src="assets/icons/Nextcloudd.png" alt="Nextcloud" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Nextcloud - Nube</span>
                     </a>
                 </div>
                 
-                <a href="#contacto" class="mt-2 text-center py-3 rounded-xl bg-[rgb(27,146,208)]/10 border border-[rgb(27,146,208)]/30 text-[rgb(27,146,208)] font-bold hover:bg-[rgb(27,146,208)] hover:text-white transition-all duration-300">Contactar</a>
+                <a href="#contacto" class="mobile-nav-link mt-2 text-center py-3 rounded-xl bg-[rgb(27,146,208)]/10 border border-[rgb(27,146,208)]/30 text-[rgb(27,146,208)] font-bold hover:bg-[rgb(27,146,208)] hover:text-white transition-all duration-300">Contactar</a>
             </div>
         </div>
     </nav>
@@ -285,6 +383,14 @@
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
+
+        // Cerrar menú móvil al hacer clic en cualquier enlace
+        document.querySelectorAll('.mobile-nav-link').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
         // Nav scroll effect
         window.addEventListener('scroll', function() {
             const nav = document.getElementById('main-nav');

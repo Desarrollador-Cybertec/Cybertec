@@ -6,17 +6,17 @@
   <!-- Página principal -->
   <url>
     <loc>https://www.cybertec.com.co/</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.cybertec.com.co/assets/media/og-preview.png</image:loc>
-      <image:title>Cybertec Informática y Telecomunicaciones SAS</image:title>
-      <image:caption>Expertos en seguridad física, digital, soporte TI, infraestructura y soluciones cloud</image:caption>
+      <image:title>Cybertec - Empresa de Tecnología en Piedecuesta y Bucaramanga, Santander</image:title>
+      <image:caption>Expertos en seguridad física, digital, soporte TI, infraestructura de redes, telecomunicaciones y soluciones cloud en Santander, Colombia</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.cybertec.com.co/assets/media/hero-logo.png</image:loc>
-      <image:title>Cybertec - Seguridad en la que Confías</image:title>
+      <image:title>Cybertec - Tecnología y Seguridad en Piedecuesta, Santander</image:title>
     </image:image>
   </url>
 
