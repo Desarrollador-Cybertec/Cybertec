@@ -16,6 +16,7 @@
             <img src="assets/icons/hikvision.png" alt="Hikvision" title="Hikvision" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
             <i class="fab fa-linux text-3xl sm:text-4xl hover:text-yellow-500 transition-colors" title="Linux"></i>
             <img src="assets/icons/nextcloud.png" alt="Nextcloud" title="Nextcloud" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <img src="assets/icons/plesk.png" alt="Plesk" title="Plesk" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
             <i class="fab fa-google text-3xl sm:text-4xl hover:text-red-500 transition-colors" title="Google"></i>
             <img src="assets/icons/mikrotik.png" alt="MikroTik" title="MikroTik" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
             <i class="fab fa-docker text-3xl sm:text-4xl hover:text-blue-400 transition-colors" title="Docker"></i>
