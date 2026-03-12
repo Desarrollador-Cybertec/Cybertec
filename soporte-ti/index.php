@@ -113,9 +113,10 @@
             <a href="#contacto" class="md:hidden px-4 py-2 rounded-full text-xs font-bold text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/30" style="background: rgba(27,146,208,0.08);">Cotizar</a>
         </div>
     </nav>
+    <div class="nav-laser-line fixed top-[44px] sm:top-[48px] w-full z-50"></div>
 
     <!-- HERO -->
-    <section class="relative min-h-[80vh] flex items-center pt-14 pb-6 overflow-hidden">
+    <section class="relative min-h-[55vh] sm:min-h-[65vh] flex items-center pt-16 pb-8 overflow-hidden">
         <div class="absolute inset-0 cyber-grid opacity-[0.03]"></div>
         <div class="absolute top-1/3 right-0 w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[150px]"></div>
 
@@ -126,7 +127,7 @@
                     Riesgo operativo
                 </span>
 
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold leading-tight mb-5">
+                <h1 class="text-[1.55rem] sm:text-4xl lg:text-5xl font-display font-bold leading-tight mb-4">
                     Un equipo caído puede <span class="text-red-400">paralizar toda tu operación.</span>
                 </h1>
 
@@ -134,18 +135,25 @@
                     Sin soporte técnico confiable, cada falla se convierte en horas de productividad perdida. <strong class="text-white">¿Quién responde cuando algo falla?</strong>
                 </p>
 
-                <div class="inline-flex items-center gap-3 bg-slate-900/80 border border-slate-800 rounded-xl px-5 py-3 mb-8" data-aos="zoom-in" data-aos-delay="200">
+                <div class="flex items-center gap-3 bg-slate-900/80 border border-slate-800 rounded-xl px-4 sm:px-5 py-3 mb-6 max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="150">
                     <i class="bi bi-hourglass-split text-red-400 text-xl"></i>
                     <p class="text-sm text-slate-300">Una hora de inactividad le cuesta a una PYME entre <span class="text-red-400 font-bold">$500.000 y $5.000.000 COP</span> en productividad.</p>
                 </div>
 
                 <div class="flex flex-col sm:flex-row gap-3 justify-center">
-                    <a href="#contacto" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm">
+                    <a href="#contacto" class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-7 sm:py-3.5 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm shadow-lg shadow-[rgb(27,146,208)]/20">
                         <i class="bi bi-headset"></i> Contratar soporte ahora
                     </a>
-                    <a href="#solucion" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 font-bold hover:border-[rgb(27,146,208)]/40 transition-all text-sm">
+                    <a href="#solucion" class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-7 sm:py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 font-bold hover:border-[rgb(27,146,208)]/40 transition-all text-sm">
                         <i class="bi bi-arrow-down-circle"></i> Ver planes
                     </a>
+                </div>
+
+                <div class="mt-6 flex justify-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative">
+                        <img src="../assets/media/soporte.png" alt="Soporte TI" class="h-16 sm:h-24 object-contain opacity-60 drop-shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+                        <div class="absolute inset-0 bg-gradient-to-t from-cyber-base via-transparent to-transparent"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,22 +168,25 @@
                 </h2>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="80">
+                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
                     <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
                         <i class="bi bi-pc-display-horizontal text-lg"></i>
                     </div>
                     <h3 class="text-white font-bold text-sm mb-2">Equipos sin mantenimiento</h3>
                     <p class="text-slate-400 text-xs">Computadores lentos, impresoras que fallan, servidores sin actualizar. La productividad se desploma.</p>
                 </div>
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5">
+                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
                     <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
                         <i class="bi bi-telephone-x-fill text-lg"></i>
                     </div>
                     <h3 class="text-white font-bold text-sm mb-2">Sin a quién llamar</h3>
                     <p class="text-slate-400 text-xs">Cuando algo falla, no hay un equipo técnico que responda. Las soluciones dependen de "el que sabe de sistemas".</p>
                 </div>
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5">
+                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
                     <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
                         <i class="bi bi-clipboard-x-fill text-lg"></i>
                     </div>
@@ -287,6 +298,16 @@
         </div>
     </section>
 
+    <!-- PARTNERS -->
+    <div class="py-6 border-t border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
+            <p class="text-center text-slate-600 text-[0.65rem] uppercase tracking-widest mb-3">Gestionamos con</p>
+            <div class="flex items-center justify-center gap-8">
+                <img src="../assets/icons/glpi.png" alt="GLPI" class="h-5 sm:h-6 object-contain grayscale opacity-30 hover:opacity-60 transition-opacity">
+            </div>
+        </div>
+    </div>
+
     <!-- CTA + FORMULARIO -->
     <section id="contacto" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[150px]"></div>
@@ -362,9 +383,9 @@
             <a href="../">
                 <img src="../assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 object-contain mx-auto mb-4">
             </a>
-            <div class="flex justify-center gap-4 mb-4">
-                <a href="https://wa.me/573175133375" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-[rgb(27,146,208)] transition-colors text-sm"><i class="bi bi-whatsapp mr-1"></i> +57 317 513 3375</a>
-                <a href="mailto:ventas@cybertec.com.co" class="text-slate-500 hover:text-[rgb(27,146,208)] transition-colors text-sm"><i class="bi bi-envelope-fill mr-1"></i> ventas@cybertec.com.co</a>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mb-4">
+                <a href="https://wa.me/573175133375" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-[rgb(27,146,208)] transition-colors text-xs sm:text-sm"><i class="bi bi-whatsapp mr-1"></i> +57 317 513 3375</a>
+                <a href="mailto:ventas@cybertec.com.co" class="text-slate-500 hover:text-[rgb(27,146,208)] transition-colors text-xs sm:text-sm"><i class="bi bi-envelope-fill mr-1"></i> ventas@cybertec.com.co</a>
             </div>
             <p class="text-slate-600 text-xs">&copy; <?php echo date('Y'); ?> Cybertec Informática & Telecomunicaciones SAS</p>
         </div>
@@ -373,7 +394,7 @@
     <!-- AOS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init({ duration: 800, offset: 100, easing: 'ease-in-out-quad', once: false });
+        AOS.init({ duration: 700, offset: 40, easing: 'ease-out-cubic', once: true });
 
         window.addEventListener('scroll', function() {
             var nav = document.getElementById('main-nav');

@@ -77,13 +77,13 @@
 <script>
     // Inicializar AOS con configuración personalizada
     AOS.init({
-        duration: 800,          // Duración de la animación (ms)
-        delay: 0,               // Delay antes de la animación (ms)
-        offset: 100,            // Offset de píxeles para disparar la animación
-        easing: 'ease-in-out-quad', // Tipo de easing
-        once: false,            // Si la animación debe ocurrir solo una vez
-        mirror: false,          // Si los elementos se deben animar cuando salen de la vista
-        anchorPlacement: 'top-bottom' // Posición del ancla para disparar la animación
+        duration: 700,
+        delay: 0,
+        offset: 40,
+        easing: 'ease-out-cubic',
+        once: true,
+        mirror: false,
+        anchorPlacement: 'top-bottom'
     });
 
     // Flujo de cotización — ahora manejado en diagnostico.php
