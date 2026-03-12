@@ -6,13 +6,13 @@
 ?>
 
 <!-- Impacto + Problemas + Solución -->
-<section id="riesgo" class="relative py-14 lg:py-20 overflow-hidden border-t border-white/5">
+<section id="riesgo" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-500/5 rounded-full blur-[150px]"></div>
 
     <div class="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl">
 
         <!-- Impacto -->
-        <div class="text-center mb-10 lg:mb-14" data-aos="fade-up">
+        <div class="text-center mb-6 lg:mb-8" data-aos="fade-up">
             <h2 class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-white mb-3">
                 Esto ya le está pasando a empresas <span class="text-red-400">como la tuya.</span>
             </h2>
@@ -39,14 +39,14 @@
         </div>
 
         <!-- Impacto banner -->
-        <div class="bg-gradient-to-r from-red-500/10 to-red-500/5 border border-red-500/20 rounded-xl p-4 sm:p-5 text-center mb-10 lg:mb-14" data-aos="fade-up" data-aos-delay="100">
+        <div class="bg-gradient-to-r from-red-500/10 to-red-500/5 border border-red-500/20 rounded-xl p-3 sm:p-4 text-center mb-6 lg:mb-8" data-aos="fade-up" data-aos-delay="100">
             <p class="text-red-400 text-sm sm:text-base font-semibold">
                 <i class="bi bi-lightning-charge-fill mr-1"></i> Una falla tecnológica puede detener completamente la operación de una empresa <span class="font-bold">durante días.</span>
             </p>
         </div>
 
         <!-- Checklist de riesgo -->
-        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-10 lg:mb-14" data-aos="fade-up" data-aos-delay="150">
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 sm:p-6 mb-6 lg:mb-8" data-aos="fade-up" data-aos-delay="150">
             <h3 class="text-lg sm:text-xl font-display font-bold text-white mb-1 text-center">
                 Si alguno de estos problemas ocurre en tu empresa,
             </h3>

@@ -6,12 +6,12 @@
 ?>
 
 <!-- Casos Reales -->
-<section id="casos" class="relative py-14 lg:py-20 overflow-hidden border-t border-white/5">
+<section id="casos" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
     <div class="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[rgb(27,146,208)]/5 rounded-full blur-[150px]"></div>
 
     <div class="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl">
 
-        <div class="text-center mb-10 lg:mb-12" data-aos="fade-up">
+        <div class="text-center mb-6 lg:mb-8" data-aos="fade-up">
             <h2 class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-white mb-3">
                 Empresas que ya protegen su operación <span class="text-neon">con Cybertec</span>
             </h2>

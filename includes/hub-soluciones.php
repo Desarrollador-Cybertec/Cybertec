@@ -5,12 +5,12 @@
 ?>
 
 <!-- Soluciones -->
-<section id="soluciones" class="relative py-14 lg:py-20 overflow-hidden border-t border-white/5">
+<section id="soluciones" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
     <div class="absolute inset-0 cyber-grid opacity-5"></div>
 
     <div class="container mx-auto px-4 sm:px-6 relative z-10 max-w-6xl">
 
-        <div class="text-center mb-10 lg:mb-14" data-aos="fade-up">
+        <div class="text-center mb-6 lg:mb-8" data-aos="fade-up">
             <h2 class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-white mb-3">
                 Soluciones diseñadas para empresas que <span class="text-neon">no pueden permitirse fallar.</span>
             </h2>

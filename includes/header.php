@@ -260,17 +260,16 @@
         <!-- Glass Background -->
         <div class="absolute inset-0 bg-slate-950/70 backdrop-blur-xl border-b border-white/5"></div>
 
-        <div class="relative container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+        <div class="relative container mx-auto px-4 sm:px-6 py-2 sm:py-2.5 flex justify-between items-center">
             
             <!-- Logo con laser line -->
             <a href="#" class="relative group">
-                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-10 sm:h-12 md:h-16 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(27,146,208,0.5)]">
-                <!-- Laser line debajo del logo -->
-                <div class="nav-laser-line w-full mt-1"></div>
+                <img src="assets/media/Logo-Banner.png" alt="Cybertec" class="h-8 sm:h-9 md:h-11 object-contain group-hover:scale-[1.03] transition-transform duration-300 drop-shadow-[0_0_8px_rgba(27,146,208,0.3)] group-hover:drop-shadow-[0_0_14px_rgba(27,146,208,0.5)]">
+                <div class="nav-laser-line w-full mt-0.5"></div>
             </a>
             
             <!-- Desktop Nav Links -->
-            <div class="hidden md:flex items-center gap-8 text-base font-semibold tracking-wide text-slate-400">
+            <div class="hidden md:flex items-center gap-5 text-sm font-semibold tracking-wide text-slate-400">
                 <a href="#inicio" class="nav-link hover:text-white transition-colors duration-200">Inicio</a>
                 <a href="#riesgo" class="nav-link hover:text-white transition-colors duration-200">Riesgo</a>
                 <a href="#soluciones" class="nav-link hover:text-white transition-colors duration-200">Soluciones</a>
@@ -278,22 +277,22 @@
                 <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden')" class="nav-link hover:text-white transition-colors duration-200 cursor-pointer">Trabaja con nosotros</button>
                 
                 <!-- Accesos Directos (Iconos) -->
-                <div class="flex items-center gap-4 pl-4 border-l border-white/10">
+                <div class="flex items-center gap-3 pl-3 border-l border-white/10">
                     <a href="https://helpdesk.cybertecit.com" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/GLPII.png" alt="GLPI" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <img src="assets/icons/GLPII.png" alt="GLPI" class="h-6 w-6 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">GLPI - Soporte</span>
                     </a>
                     <a href="https://webmail.cybertec.com.co" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/Correo.png" alt="Correo" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <img src="assets/icons/Correo.png" alt="Correo" class="h-6 w-6 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Correo Corporativo</span>
                     </a>
                     <a href="https://nextcloud.net.co" target="_blank" rel="noreferrer" class="relative group">
-                        <img src="assets/icons/Nextcloudd.png" alt="Nextcloud" class="h-8 w-8 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
+                        <img src="assets/icons/Nextcloudd.png" alt="Nextcloud" class="h-6 w-6 object-contain opacity-70 hover:opacity-100 transition-opacity duration-200">
                         <span class="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-slate-800/95 text-white text-xs px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">Nextcloud - Nube</span>
                     </a>
                 </div>
                 
-                <a href="#contacto" class="relative px-7 py-3 rounded-full text-base font-bold text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/30 overflow-hidden group/btn transition-all duration-300 hover:text-white hover:border-[rgb(27,146,208)]" style="background: rgba(27,146,208,0.08);">
+                <a href="#diagnostico" class="relative px-5 py-2 rounded-full text-sm font-bold text-[rgb(27,146,208)] border border-[rgb(27,146,208)]/30 overflow-hidden group/btn transition-all duration-300 hover:text-white hover:border-[rgb(27,146,208)]" style="background: rgba(27,146,208,0.08);">
                     <span class="absolute inset-0 bg-[rgb(27,146,208)] scale-x-0 group-hover/btn:scale-x-100 origin-left transition-transform duration-300 rounded-full"></span>
                     <span class="relative">Contactar</span>
                 </a>

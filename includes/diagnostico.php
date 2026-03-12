@@ -6,14 +6,14 @@
 ?>
 
 <!-- Diagnóstico / Lead Magnet Section -->
-<section id="diagnostico" class="relative py-20 lg:py-28 overflow-hidden border-t border-white/5">
+<section id="diagnostico" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
     <!-- Background -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[rgb(27,146,208)]/5 rounded-full blur-[180px]"></div>
 
     <div class="container mx-auto px-4 sm:px-6 relative z-10">
         <div class="max-w-4xl mx-auto">
             
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-center">
                 
                 <!-- Left: Info -->
                 <div data-aos="fade-right">
@@ -22,11 +22,11 @@
                         Sin costo
                     </span>
 
-                    <h2 class="text-3xl sm:text-4xl font-display font-bold text-white mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-white mb-4">
                         Diagnóstico Tecnológico Empresarial <span class="text-neon">Gratuito</span>
                     </h2>
 
-                    <p class="text-slate-400 text-base mb-8 leading-relaxed">
+                    <p class="text-slate-400 text-sm mb-5 leading-relaxed">
                         Nuestro equipo de expertos evaluará tu infraestructura tecnológica y te entregará un informe con recomendaciones técnicas personalizadas.
                     </p>
 
@@ -71,8 +71,8 @@
                 </div>
 
                 <!-- Right: Form -->
-                <div class="rounded-2xl bg-slate-900/80 border border-slate-800 p-6 sm:p-8 backdrop-blur" data-aos="fade-left">
-                    <h3 class="text-xl font-display font-bold text-white mb-6 text-center">Solicitar diagnóstico</h3>
+                <div class="rounded-2xl bg-slate-900/80 border border-slate-800 p-5 sm:p-6 backdrop-blur" data-aos="fade-left">
+                    <h3 class="text-lg font-display font-bold text-white mb-4 text-center">Solicitar diagnóstico</h3>
                     
                     <form id="formDiagnostico" class="space-y-4">
                         <div>
