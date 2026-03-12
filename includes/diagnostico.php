@@ -111,17 +111,6 @@
                             <i class="bi bi-whatsapp text-lg"></i>
                             Solicitar diagnóstico
                         </button>
-
-                        <div class="relative flex items-center gap-3 mt-4">
-                            <div class="flex-1 h-px bg-slate-700"></div>
-                            <span class="text-slate-500 text-xs">o si prefieres</span>
-                            <div class="flex-1 h-px bg-slate-700"></div>
-                        </div>
-
-                        <a href="https://wa.me/573175133375?text=Hola%20Cybertec%2C%20necesito%20evaluar%20la%20seguridad%20tecnol%C3%B3gica%20de%20mi%20empresa." class="w-full flex items-center justify-center gap-2 mt-3 px-6 py-3.5 rounded-xl bg-slate-950 border border-slate-700 text-white font-bold hover:border-green-500/40 hover:bg-slate-900 transition-all text-sm" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-whatsapp text-green-400 text-lg"></i>
-                            Hablar directamente por WhatsApp
-                        </a>
                     </form>
                 </div>
             </div>

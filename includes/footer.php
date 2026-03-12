@@ -9,19 +9,19 @@
 <section class="py-5 lg:py-8 bg-slate-900 border-y border-slate-800 overflow-hidden">
     <div class="container mx-auto px-6 text-center">
         <p class="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-5">Tecnologías que implementamos</p>
-        <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-5 sm:gap-x-12 sm:gap-y-6 opacity-50 grayscale hover:grayscale-0 transition-all duration-500" data-aos="zoom-in">
-            <i class="fab fa-microsoft text-3xl sm:text-4xl hover:text-blue-500 transition-colors" title="Microsoft"></i>
-            <img src="assets/icons/fortinet.png" alt="Fortinet" title="Fortinet" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <i class="fab fa-aws text-3xl sm:text-4xl hover:text-orange-500 transition-colors" title="AWS"></i>
-            <img src="assets/icons/hikvision.png" alt="Hikvision" title="Hikvision" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <i class="fab fa-linux text-3xl sm:text-4xl hover:text-yellow-500 transition-colors" title="Linux"></i>
-            <img src="assets/icons/nextcloud.png" alt="Nextcloud" title="Nextcloud" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <img src="assets/icons/plesk.png" alt="Plesk" title="Plesk" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <i class="fab fa-google text-3xl sm:text-4xl hover:text-red-500 transition-colors" title="Google"></i>
-            <img src="assets/icons/mikrotik.png" alt="MikroTik" title="MikroTik" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <i class="fab fa-docker text-3xl sm:text-4xl hover:text-blue-400 transition-colors" title="Docker"></i>
-            <img src="assets/icons/glpi.png" alt="GLPI" title="GLPI" class="h-7 sm:h-9 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
-            <i class="fab fa-plex text-3xl sm:text-4xl hover:text-orange-400 transition-colors" title="Plex"></i>
+        <div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 sm:gap-x-8 sm:gap-y-4 opacity-40 grayscale hover:grayscale-0 hover:opacity-60 transition-all duration-500" data-aos="zoom-in">
+            <i class="fab fa-microsoft text-xl sm:text-2xl hover:text-blue-500 transition-colors" title="Microsoft"></i>
+            <img src="assets/icons/fortinet.png" alt="Fortinet" title="Fortinet" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-aws text-xl sm:text-2xl hover:text-orange-500 transition-colors" title="AWS"></i>
+            <img src="assets/icons/hikvision.png" alt="Hikvision" title="Hikvision" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-linux text-xl sm:text-2xl hover:text-yellow-500 transition-colors" title="Linux"></i>
+            <img src="assets/icons/nextcloud.png" alt="Nextcloud" title="Nextcloud" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <img src="assets/icons/plesk.png" alt="Plesk" title="Plesk" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-google text-xl sm:text-2xl hover:text-red-500 transition-colors" title="Google"></i>
+            <img src="assets/icons/mikrotik.png" alt="MikroTik" title="MikroTik" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-docker text-xl sm:text-2xl hover:text-blue-400 transition-colors" title="Docker"></i>
+            <img src="assets/icons/glpi.png" alt="GLPI" title="GLPI" class="h-4 sm:h-5 w-auto object-contain hover:scale-110 hover:brightness-125 transition-all">
+            <i class="fab fa-plex text-xl sm:text-2xl hover:text-orange-400 transition-colors" title="Plex"></i>
         </div>
     </div>
 </section>
@@ -48,10 +48,11 @@
             <div data-aos="fade-up" data-aos-delay="100">
                 <h4 class="text-white font-bold mb-6">Soluciones</h4>
                 <ul class="space-y-3 text-slate-500 text-sm">
-                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Ciberseguridad Empresarial</a></li>
-                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Infraestructura y Redes</a></li>
-                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Electrónica</a></li>
-                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Automatización y Desarrollo</a></li>
+                    <li><a href="seguridad-fisica/" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Física</a></li>
+                    <li><a href="seguridad-digital/" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Digital</a></li>
+                    <li><a href="soporte-ti/" class="hover:text-[rgb(27,146,208)] transition-colors">Soporte TI y Service Desk</a></li>
+                    <li><a href="soluciones-cloud/" class="hover:text-[rgb(27,146,208)] transition-colors">Soluciones Cloud y Software</a></li>
+                    <li><a href="infraestructura/" class="hover:text-[rgb(27,146,208)] transition-colors">Infraestructura Tecnológica</a></li>
                 </ul>
             </div>
 
