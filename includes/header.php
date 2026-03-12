@@ -272,8 +272,9 @@
             <!-- Desktop Nav Links -->
             <div class="hidden md:flex items-center gap-8 text-base font-semibold tracking-wide text-slate-400">
                 <a href="#inicio" class="nav-link hover:text-white transition-colors duration-200">Inicio</a>
-                <a href="#servicios" class="nav-link hover:text-white transition-colors duration-200">Soluciones</a>
-                <a href="#nosotros" class="nav-link hover:text-white transition-colors duration-200">Nosotros</a>
+                <a href="#riesgo" class="nav-link hover:text-white transition-colors duration-200">Riesgo</a>
+                <a href="#soluciones" class="nav-link hover:text-white transition-colors duration-200">Soluciones</a>
+                <a href="#diagnostico" class="nav-link hover:text-white transition-colors duration-200">Diagnóstico</a>
                 <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden')" class="nav-link hover:text-white transition-colors duration-200 cursor-pointer">Trabaja con nosotros</button>
                 
                 <!-- Accesos Directos (Iconos) -->
@@ -310,8 +311,9 @@
         <div class="hidden md:hidden" id="mobile-menu">
             <div class="border-t border-white/5 bg-slate-950/90 backdrop-blur-xl px-6 py-6 flex flex-col gap-5 text-sm font-medium text-slate-400">
                 <a href="#inicio" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-house-fill text-[rgb(27,146,208)] mr-2"></i>Inicio</a>
-                <a href="#servicios" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
-                <a href="#nosotros" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-people-fill text-[rgb(27,146,208)] mr-2"></i>Nosotros</a>
+                <a href="#riesgo" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-exclamation-triangle-fill text-red-400 mr-2"></i>Riesgo</a>
+                <a href="#soluciones" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-grid-fill text-[rgb(27,146,208)] mr-2"></i>Soluciones</a>
+                <a href="#diagnostico" class="mobile-nav-link hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-clipboard-data text-[rgb(27,146,208)] mr-2"></i>Diagnóstico</a>
                 <button onclick="document.getElementById('modalTrabaja').classList.remove('hidden'); document.getElementById('mobile-menu').classList.add('hidden');" class="text-left hover:text-white hover:pl-2 transition-all duration-200"><i class="bi bi-envelope-fill text-[rgb(27,146,208)] mr-2"></i>Trabaja con nosotros</button>
                 
                 <!-- Accesos Directos Móvil -->

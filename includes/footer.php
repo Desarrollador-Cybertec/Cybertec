@@ -84,13 +84,12 @@
             </div>
             
             <div data-aos="fade-up" data-aos-delay="100">
-                <h4 class="text-white font-bold mb-6">Líneas de Negocio</h4>
+                <h4 class="text-white font-bold mb-6">Soluciones</h4>
                 <ul class="space-y-3 text-slate-500 text-sm">
-                    <li><a href="#servicios" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Física</a></li>
-                    <li><a href="#servicios" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Digital</a></li>
-                    <li><a href="#servicios" class="hover:text-[rgb(27,146,208)] transition-colors">Soporte Técnico & TIC</a></li>
-                    <li><a href="#servicios" class="hover:text-[rgb(27,146,208)] transition-colors">Soluciones Cloud & Software</a></li>
-                    <li><a href="#servicios" class="hover:text-[rgb(27,146,208)] transition-colors">Infraestructura Tecnológica</a></li>
+                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Ciberseguridad Empresarial</a></li>
+                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Infraestructura y Redes</a></li>
+                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Seguridad Electrónica</a></li>
+                    <li><a href="#soluciones" class="hover:text-[rgb(27,146,208)] transition-colors">Automatización y Desarrollo</a></li>
                 </ul>
             </div>
 

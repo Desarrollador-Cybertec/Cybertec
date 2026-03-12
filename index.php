@@ -1,9 +1,8 @@
 <?php
 include('includes/header.php');
 include('includes/hero.php');
-include('includes/stats.php');
-include('includes/servicios.php');
-include('includes/seguridad.php');
-include('includes/soporte.php');
-include('includes/infraestructura.php');
+include('includes/problema.php');
+include('includes/hub-soluciones.php');
+include('includes/casos-exito.php');
+include('includes/diagnostico.php');
 include('includes/footer.php');
