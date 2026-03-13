@@ -438,3 +438,171 @@ body {
 .cta-pulse {
     animation: ctaPulse 2.5s infinite;
 }
+
+/* ============================================
+   LANDING PAGE — High Conversion Components
+   ============================================ */
+
+/* Floating WhatsApp Button */
+@keyframes whatsappBounce {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 60;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    animation: whatsappBounce 3s ease-in-out infinite;
+    text-decoration: none;
+}
+.whatsapp-float:hover {
+    transform: scale(1.12) !important;
+    box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
+}
+@media (max-width: 640px) {
+    .whatsapp-float {
+        bottom: 16px;
+        right: 16px;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+/* Trust Bar - Client Logos */
+.trust-logo {
+    filter: grayscale(100%) brightness(1.8);
+    opacity: 0.4;
+    transition: all 0.4s ease;
+}
+.trust-logo:hover {
+    filter: grayscale(0%) brightness(1);
+    opacity: 1;
+}
+
+/* FAQ Accordion */
+.faq-item {
+    border: 1px solid rgba(51, 65, 85, 0.6);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+.faq-item:hover {
+    border-color: rgba(27, 146, 208, 0.3);
+}
+.faq-trigger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: rgba(15, 23, 42, 0.6);
+    transition: background 0.3s ease;
+    user-select: none;
+}
+.faq-trigger:hover {
+    background: rgba(15, 23, 42, 0.8);
+}
+.faq-trigger .faq-icon {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+.faq-item.active .faq-trigger .faq-icon {
+    transform: rotate(45deg);
+}
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+.faq-item.active .faq-content {
+    max-height: 300px;
+}
+.faq-content-inner {
+    padding: 0 20px 16px 20px;
+}
+
+/* Stat Counter Cards */
+.stat-card {
+    text-align: center;
+    padding: 20px 12px;
+}
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+@media (max-width: 640px) {
+    .stat-number { font-size: 1.5rem; }
+    .stat-card { padding: 14px 8px; }
+}
+
+/* Pain Checklist */
+.pain-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    border-left: 3px solid rgba(239, 68, 68, 0.5);
+    background: rgba(239, 68, 68, 0.03);
+    border-radius: 0 8px 8px 0;
+    transition: all 0.3s ease;
+}
+.pain-item:hover {
+    border-left-color: rgba(239, 68, 68, 0.9);
+    background: rgba(239, 68, 68, 0.06);
+}
+
+/* Case Study Quote */
+.case-quote {
+    position: relative;
+    padding-left: 20px;
+    border-left: 3px solid rgba(27, 146, 208, 0.5);
+}
+.case-quote::before {
+    content: '\201C';
+    position: absolute;
+    top: -8px;
+    left: -4px;
+    font-size: 3rem;
+    color: rgba(27, 146, 208, 0.3);
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+/* Guarantee Badge */
+.guarantee-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* Mid-page CTA banner */
+.mid-cta {
+    background: linear-gradient(135deg, rgba(27,146,208,0.08) 0%, rgba(27,146,208,0.02) 100%);
+    border: 1px solid rgba(27,146,208,0.15);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}

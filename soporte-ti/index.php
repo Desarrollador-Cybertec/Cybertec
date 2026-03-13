@@ -1,6 +1,6 @@
 <?php
 /**
- * Landing Page — Soporte Técnico Especializado y Gestión de TIC
+ * Landing Page — Soporte Técnico Especializado y Gestión de TIC (High-Conversion 12-Element Framework)
  * Service Desk, Soporte Remoto, Outsourcing TI
  */
 ?>
@@ -115,7 +115,7 @@
     </nav>
     <div class="nav-laser-line fixed top-[44px] sm:top-[48px] w-full z-50"></div>
 
-    <!-- HERO -->
+    <!-- ======================== 1. HERO ======================== -->
     <section class="relative min-h-[55vh] sm:min-h-[65vh] flex items-center pt-16 pb-8 overflow-hidden">
         <div class="absolute inset-0 cyber-grid opacity-[0.03]"></div>
         <div class="absolute top-1/3 right-0 w-[500px] h-[500px] bg-emerald-500/10 rounded-full blur-[150px]"></div>
@@ -140,8 +140,8 @@
                     <p class="text-sm text-slate-300">Una hora de inactividad le cuesta a una PYME entre <span class="text-red-400 font-bold">$500.000 y $5.000.000 COP</span> en productividad.</p>
                 </div>
 
-                <div class="flex flex-col sm:flex-row gap-3 justify-center">
-                    <a href="#contacto" class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-7 sm:py-3.5 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm shadow-lg shadow-[rgb(27,146,208)]/20">
+                <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6">
+                    <a href="#contacto" class="cta-pulse inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-7 sm:py-3.5 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm shadow-lg shadow-[rgb(27,146,208)]/20">
                         <i class="bi bi-headset"></i> Contratar soporte ahora
                     </a>
                     <a href="#solucion" class="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-7 sm:py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 font-bold hover:border-[rgb(27,146,208)]/40 transition-all text-sm">
@@ -149,7 +149,14 @@
                     </a>
                 </div>
 
-                <div class="mt-6 flex justify-center" data-aos="fade-up" data-aos-delay="200">
+                <!-- Trust Row -->
+                <div class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-slate-500 text-[10px] sm:text-xs uppercase tracking-wider font-semibold mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <span><i class="bi bi-patch-check-fill text-[rgb(27,146,208)] mr-1"></i>+10 años de experiencia</span>
+                    <span><i class="bi bi-patch-check-fill text-[rgb(27,146,208)] mr-1"></i>+300 incidentes resueltos/mes</span>
+                    <span><i class="bi bi-patch-check-fill text-[rgb(27,146,208)] mr-1"></i>ANS garantizados</span>
+                </div>
+
+                <div class="flex justify-center" data-aos="fade-up" data-aos-delay="250">
                     <div class="relative">
                         <img src="../assets/media/soporte.png" alt="Soporte TI" class="h-16 sm:h-24 object-contain opacity-60 drop-shadow-[0_0_20px_rgba(16,185,129,0.3)]">
                         <div class="absolute inset-0 bg-gradient-to-t from-cyber-base via-transparent to-transparent"></div>
@@ -159,162 +166,364 @@
         </div>
     </section>
 
-    <!-- PROBLEMA -->
+    <!-- ======================== 2. DOLOR — CHECKLIST ======================== -->
     <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
-        <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
+        <div class="container mx-auto px-4 sm:px-6 max-w-4xl">
             <div class="text-center mb-8" data-aos="fade-up">
                 <h2 class="text-2xl sm:text-3xl font-display font-bold text-white mb-3">
-                    Lo que pasa cuando <span class="text-red-400">no tienes soporte TI</span>
+                    ¿Tu empresa tiene <span class="text-red-400">estos problemas</span>?
                 </h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto">Si marcas aunque sea uno, cada día estás perdiendo dinero en productividad.</p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="80">
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
-                    <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
-                        <i class="bi bi-pc-display-horizontal text-lg"></i>
-                    </div>
-                    <h3 class="text-white font-bold text-sm mb-2">Equipos sin mantenimiento</h3>
-                    <p class="text-slate-400 text-xs">Computadores lentos, impresoras que fallan, servidores sin actualizar. La productividad se desploma.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" data-aos="fade-up" data-aos-delay="80">
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">Tus empleados <strong class="text-white">pierden horas esperando que alguien resuelva</strong> un problema técnico</p>
                 </div>
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
-                    <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
-                        <i class="bi bi-telephone-x-fill text-lg"></i>
-                    </div>
-                    <h3 class="text-white font-bold text-sm mb-2">Sin a quién llamar</h3>
-                    <p class="text-slate-400 text-xs">Cuando algo falla, no hay un equipo técnico que responda. Las soluciones dependen de "el que sabe de sistemas".</p>
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">No tienes un equipo de TI y dependes de <strong class="text-white">"el que sabe de sistemas"</strong> en la oficina</p>
                 </div>
-                <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-5 relative overflow-hidden">
-                    <div class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-500/60 to-transparent"></div>
-                    <div class="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400 mb-3">
-                        <i class="bi bi-clipboard-x-fill text-lg"></i>
-                    </div>
-                    <h3 class="text-white font-bold text-sm mb-2">Sin trazabilidad</h3>
-                    <p class="text-slate-400 text-xs">No hay registro de incidentes ni requerimientos. Los mismos problemas se repiten una y otra vez.</p>
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">Los <strong class="text-white">mismos problemas se repiten</strong> una y otra vez porque nadie los documenta</p>
+                </div>
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">Computadores lentos, impresoras que fallan y <strong class="text-white">software desactualizado</strong> en toda la empresa</p>
+                </div>
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">No hay <strong class="text-white">registro ni trazabilidad</strong> de los incidentes técnicos que ocurren</p>
+                </div>
+                <div class="pain-item">
+                    <i class="bi bi-check-square text-red-400 text-lg mt-0.5 flex-shrink-0"></i>
+                    <p class="text-slate-300 text-sm">Cuando algo falla fuera de horario, <strong class="text-white">nadie responde</strong> hasta el día siguiente</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SOLUCIÓN -->
+    <!-- ======================== 3. AMPLIFICACIÓN DE RIESGO ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-b from-red-500/[0.02] to-transparent"></div>
+        <div class="container mx-auto px-4 sm:px-6 max-w-5xl relative z-10">
+            <div class="text-center mb-8" data-aos="fade-up">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-[0.65rem] font-bold uppercase tracking-widest mb-4">
+                    <i class="bi bi-graph-down-arrow"></i> Lo que está en juego
+                </span>
+                <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">
+                    Sin soporte técnico, <span class="text-red-400">tu empresa pierde más de lo que crees</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="80">
+                <div class="bg-slate-900/80 border border-red-500/10 rounded-xl p-5 text-center">
+                    <div class="stat-number text-red-400 font-display">$5M</div>
+                    <p class="text-slate-300 text-xs font-bold uppercase tracking-wider mb-2">COP por hora</p>
+                    <p class="text-slate-500 text-xs">Costo máximo de inactividad para una PYME por cada hora que un sistema no funciona.</p>
+                </div>
+                <div class="bg-slate-900/80 border border-red-500/10 rounded-xl p-5 text-center">
+                    <div class="stat-number text-red-400 font-display">65%</div>
+                    <p class="text-slate-300 text-xs font-bold uppercase tracking-wider mb-2">de fallas son evitables</p>
+                    <p class="text-slate-500 text-xs">Más de la mitad de las fallas técnicas se previenen con mantenimiento y soporte proactivo.</p>
+                </div>
+                <div class="bg-slate-900/80 border border-red-500/10 rounded-xl p-5 text-center">
+                    <div class="stat-number text-red-400 font-display">3.2h</div>
+                    <p class="text-slate-300 text-xs font-bold uppercase tracking-wider mb-2">promedio de espera</p>
+                    <p class="text-slate-500 text-xs">Tiempo promedio que un empleado espera solución sin un service desk estructurado.</p>
+                </div>
+            </div>
+
+            <!-- Mid CTA -->
+            <div class="mid-cta mt-8" data-aos="fade-up" data-aos-delay="150">
+                <p class="text-white text-sm font-bold mb-3">¿Cuántas horas de productividad pierde tu equipo cada semana?</p>
+                <a href="#contacto" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm">
+                    <i class="bi bi-headset"></i> Contratar soporte TI →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 4. SOLUCIÓN ======================== -->
     <section id="solucion" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[150px]"></div>
         <div class="container mx-auto px-4 sm:px-6 max-w-5xl relative z-10">
 
             <div class="text-center mb-8" data-aos="fade-up">
                 <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-widest mb-4">
-                    <i class="bi bi-headset"></i> Solución Cybertec
+                    <i class="bi bi-headset"></i> Así es como lo resolvemos
                 </span>
                 <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">
                     Soporte Técnico Especializado y <span class="text-emerald-400">Gestión de TIC</span>
                 </h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto mt-3">Un equipo técnico dedicado que gestiona, resuelve y previene todos los problemas tecnológicos de tu empresa.</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <!-- Service Desk Presencial -->
-                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300" data-aos="fade-up" data-aos-delay="0">
+                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300 landing-card-hover" data-aos="fade-up" data-aos-delay="0">
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
                         <i class="bi bi-person-badge-fill text-xl"></i>
                     </div>
                     <h3 class="text-white font-bold mb-2">Service Desk Presencial</h3>
+                    <p class="text-slate-400 text-xs mb-3">Personal técnico dedicado directamente en tus instalaciones para atención inmediata.</p>
                     <ul class="space-y-2 text-slate-400 text-xs">
                         <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Técnicos en sitio en tu empresa</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Atención a equipos y periféricos</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Atención a equipos de cómputo y periféricos</li>
                         <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Gestión de incidentes y problemas</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Registro y trazabilidad de tickets</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Registro y trazabilidad ITIL de tickets</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Mantenimiento preventivo de equipos</li>
                     </ul>
                 </div>
 
                 <!-- Service Desk Remoto -->
-                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300" data-aos="fade-up" data-aos-delay="80">
+                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300 landing-card-hover" data-aos="fade-up" data-aos-delay="80">
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
                         <i class="bi bi-display text-xl"></i>
                     </div>
                     <h3 class="text-white font-bold mb-2">Service Desk Remoto</h3>
+                    <p class="text-slate-400 text-xs mb-3">Soporte técnico inmediato sin necesidad de esperar a un técnico presencial.</p>
                     <ul class="space-y-2 text-slate-400 text-xs">
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Soporte telefónico y virtual</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Atención remota inmediata</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Plataforma de tickets (GLPI)</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Cumplimiento de ANS</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Soporte telefónico y por escritorio remoto</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Atención remota en menos de 15 minutos</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Plataforma de tickets con portal GLPI</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Cumplimiento de acuerdos de nivel de servicio</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Reportes mensuales de gestión</li>
                     </ul>
                 </div>
 
                 <!-- Outsourcing -->
-                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300" data-aos="fade-up" data-aos-delay="160">
+                <div class="group bg-slate-900/80 border border-slate-800 hover:border-emerald-500/40 rounded-xl p-5 transition-all duration-300 landing-card-hover" data-aos="fade-up" data-aos-delay="160">
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
                         <i class="bi bi-people-fill text-xl"></i>
                     </div>
-                    <h3 class="text-white font-bold mb-2">Outsourcing de TI</h3>
+                    <h3 class="text-white font-bold mb-2">Outsourcing de TI Completo</h3>
+                    <p class="text-slate-400 text-xs mb-3">Terceriza toda tu gestión tecnológica con un equipo experto dedicado.</p>
                     <ul class="space-y-2 text-slate-400 text-xs">
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Personal técnico dedicado</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Outsourcing de impresión</li>
-                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Administración de firewalls</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Personal técnico dedicado a tu operación</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Outsourcing de impresión y suministros</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Administración de firewalls y red</li>
                         <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Suministro de tóners y repuestos</li>
+                        <li class="flex items-start gap-2"><i class="bi bi-check-circle-fill text-emerald-400 mt-0.5"></i> Gestión integral de infraestructura TI</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- BENEFICIOS -->
+    <!-- ======================== 5. BENEFICIOS ORIENTADOS A RESULTADOS ======================== -->
     <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5 bg-slate-900/30">
         <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
             <div class="text-center mb-8" data-aos="fade-up">
                 <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">
-                    ¿Por qué elegir Cybertec?
+                    Resultados que <span class="text-emerald-400">obtendrás</span>
                 </h2>
+                <p class="text-slate-400 text-sm max-w-xl mx-auto mt-3">No solo resolvemos problemas. Transformamos la operación tecnológica de tu empresa con resultados medibles.</p>
             </div>
+
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="text-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-3">
-                        <i class="bi bi-stopwatch-fill text-xl"></i>
-                    </div>
-                    <h4 class="text-white font-bold text-sm mb-1">Respuesta rápida</h4>
-                    <p class="text-slate-500 text-xs">ANS definidos, tiempos de respuesta garantizados</p>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl stat-card">
+                    <div class="stat-number text-emerald-400 font-display">72%</div>
+                    <h4 class="text-white font-bold text-sm mb-1">Menos inactividad</h4>
+                    <p class="text-slate-500 text-xs">Reducción drástica de tiempos de parada con soporte proactivo</p>
                 </div>
-                <div class="text-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-3">
-                        <i class="bi bi-kanban-fill text-xl"></i>
-                    </div>
-                    <h4 class="text-white font-bold text-sm mb-1">Plataforma GLPI</h4>
-                    <p class="text-slate-500 text-xs">Trazabilidad total de incidentes</p>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl stat-card">
+                    <div class="stat-number text-emerald-400 font-display">&lt;15m</div>
+                    <h4 class="text-white font-bold text-sm mb-1">Tiempo de respuesta</h4>
+                    <p class="text-slate-500 text-xs">Primera respuesta garantizada en menos de 15 minutos</p>
                 </div>
-                <div class="text-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-3">
-                        <i class="bi bi-building-fill text-xl"></i>
-                    </div>
-                    <h4 class="text-white font-bold text-sm mb-1">Personal en sitio</h4>
-                    <p class="text-slate-500 text-xs">Técnicos dedicados en tu empresa</p>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl stat-card">
+                    <div class="stat-number text-emerald-400 font-display">100%</div>
+                    <h4 class="text-white font-bold text-sm mb-1">Trazabilidad</h4>
+                    <p class="text-slate-500 text-xs">Todos los incidentes registrados, documentados y medidos</p>
                 </div>
-                <div class="text-center p-4">
-                    <div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-3">
-                        <i class="bi bi-arrow-repeat text-xl"></i>
-                    </div>
-                    <h4 class="text-white font-bold text-sm mb-1">Mantenimiento preventivo</h4>
-                    <p class="text-slate-500 text-xs">Evita fallas antes de que ocurran</p>
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl stat-card">
+                    <div class="stat-number text-emerald-400 font-display">40%</div>
+                    <h4 class="text-white font-bold text-sm mb-1">Ahorro en costos TI</h4>
+                    <p class="text-slate-500 text-xs">Más económico que contratar un departamento de TI interno</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PARTNERS -->
-    <div class="py-6 border-t border-white/5">
+    <!-- ======================== 6. PRUEBA SOCIAL — LOGOS CLIENTES ======================== -->
+    <section class="relative py-8 lg:py-10 overflow-hidden border-t border-white/5">
         <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
-            <p class="text-center text-slate-600 text-[0.65rem] uppercase tracking-widest mb-3">Gestionamos con</p>
-            <div class="flex items-center justify-center gap-8">
-                <img src="../assets/icons/glpi.png" alt="GLPI" class="h-5 sm:h-6 object-contain grayscale opacity-30 hover:opacity-60 transition-opacity">
+            <p class="text-center text-slate-500 text-xs uppercase tracking-widest font-bold mb-6" data-aos="fade-up">Empresas que confían su soporte TI en Cybertec</p>
+            <div class="flex flex-wrap items-center justify-center gap-8 sm:gap-12" data-aos="fade-up" data-aos-delay="80">
+                <img src="../assets/icons/iconos-clientes/blanco/INSUMMA-PC.png" alt="Insumma" class="h-8 sm:h-10 object-contain trust-logo">
+                <img src="../assets/icons/iconos-clientes/blanco/LUBRIXEL-LB.png" alt="Lubrixel" class="h-8 sm:h-10 object-contain trust-logo">
+                <img src="../assets/icons/iconos-clientes/blanco/INS-HC.png" alt="INS" class="h-8 sm:h-10 object-contain trust-logo">
+                <img src="../assets/icons/iconos-clientes/blanco/COLAVES-PC.png" alt="Colaves" class="h-8 sm:h-10 object-contain trust-logo">
+                <img src="../assets/icons/iconos-clientes/blanco/ECOMTRANS-TR.png" alt="Ecomtrans" class="h-8 sm:h-10 object-contain trust-logo">
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- CTA + FORMULARIO -->
+    <!-- ======================== 7. AUTORIDAD + CREDIBILIDAD ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8" data-aos="fade-up">
+                <div class="text-center p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+                    <div class="stat-number text-[rgb(27,146,208)] font-display">+10</div>
+                    <p class="text-slate-400 text-xs font-bold uppercase tracking-wider">Años de experiencia</p>
+                </div>
+                <div class="text-center p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+                    <div class="stat-number text-[rgb(27,146,208)] font-display">+300</div>
+                    <p class="text-slate-400 text-xs font-bold uppercase tracking-wider">Incidentes resueltos/mes</p>
+                </div>
+                <div class="text-center p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+                    <div class="stat-number text-[rgb(27,146,208)] font-display">+30</div>
+                    <p class="text-slate-400 text-xs font-bold uppercase tracking-wider">Empresas con outsourcing</p>
+                </div>
+                <div class="text-center p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+                    <div class="stat-number text-[rgb(27,146,208)] font-display">98%</div>
+                    <p class="text-slate-400 text-xs font-bold uppercase tracking-wider">Cumplimiento de ANS</p>
+                </div>
+            </div>
+            <!-- Partner -->
+            <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                <p class="text-slate-600 text-[0.65rem] uppercase tracking-widest mb-3">Plataforma de gestión</p>
+                <div class="flex items-center justify-center gap-8">
+                    <img src="../assets/icons/glpi.png" alt="GLPI" class="h-6 sm:h-7 object-contain trust-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 8. CASO DE ÉXITO ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="absolute top-1/2 right-0 w-[400px] h-[400px] bg-emerald-500/5 rounded-full blur-[120px]"></div>
+        <div class="container mx-auto px-4 sm:px-6 max-w-4xl relative z-10">
+            <div class="text-center mb-6" data-aos="fade-up">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[0.65rem] font-bold uppercase tracking-widest">
+                    <i class="bi bi-star-fill"></i> Caso real
+                </span>
+            </div>
+
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 sm:p-8" data-aos="fade-up" data-aos-delay="80">
+                <div class="flex items-center gap-4 mb-5">
+                    <img src="../assets/icons/iconos-clientes/blanco/INSUMMA-PC.png" alt="Insumma" class="h-8 object-contain opacity-70">
+                    <div>
+                        <p class="text-white font-bold text-sm">Sector Producción y Comercialización</p>
+                        <p class="text-slate-500 text-xs">Área Metropolitana de Bucaramanga</p>
+                    </div>
+                </div>
+
+                <div class="case-quote mb-5">
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Dependían de un solo "técnico de confianza" para resolver todos los problemas de TI. Cada falla significaba esperas de horas y problemas recurrentes sin solución de raíz. Cybertec implementó un service desk con GLPI, técnicos dedicados y mantenimiento preventivo. <strong class="text-white">En los primeros 3 meses, los tiempos de resolución bajaron un 68% y los incidentes recurrentes se redujeron en un 80%.</strong>
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[0.65rem] font-bold">Service Desk GLPI</span>
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[0.65rem] font-bold">Técnicos en sitio</span>
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[0.65rem] font-bold">Mantenimiento preventivo</span>
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[0.65rem] font-bold">ANS garantizados</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 9. OFERTA IRRESISTIBLE ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-emerald-500/5 rounded-full blur-[180px]"></div>
+        <div class="container mx-auto px-4 sm:px-6 max-w-4xl relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-center">
+                <!-- Left: Offer -->
+                <div data-aos="fade-right">
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-widest mb-6">
+                        <i class="bi bi-gift"></i> Sin costo
+                    </span>
+
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-white mb-4">
+                        Primera Semana de Soporte <span class="text-neon">Sin Costo</span>
+                    </h2>
+
+                    <p class="text-slate-400 text-sm mb-5 leading-relaxed">
+                        Prueba nuestro service desk durante una semana completa sin compromiso. Experimenta la diferencia de tener soporte profesional antes de decidir.
+                    </p>
+
+                    <ul class="space-y-4 mb-6">
+                        <li class="flex items-start gap-3">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mt-0.5">
+                                <i class="bi bi-headset"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Soporte técnico real</h4>
+                                <p class="text-slate-400 text-xs">Atención presencial o remota durante 5 días hábiles completos.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mt-0.5">
+                                <i class="bi bi-clipboard-data"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Diagnóstico de tu infraestructura</h4>
+                                <p class="text-slate-400 text-xs">Evaluación del estado de equipos, red y software de tu empresa.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mt-0.5">
+                                <i class="bi bi-file-earmark-bar-graph"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Informe de recomendaciones</h4>
+                                <p class="text-slate-400 text-xs">Al finalizar la semana, recibes un informe con hallazgos y mejoras sugeridas.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="bg-red-500/5 border border-red-500/15 rounded-xl p-4">
+                        <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-2">
+                            <i class="bi bi-exclamation-triangle-fill mr-1"></i> No esperes a que pase
+                        </p>
+                        <p class="text-white text-sm font-bold">Cada día sin soporte profesional, <span class="text-red-400">tu equipo pierde productividad.</span></p>
+                        <p class="text-slate-400 text-xs mt-1">Prueba sin riesgo y decide con resultados reales.</p>
+                    </div>
+                </div>
+
+                <!-- Right: Visual -->
+                <div class="flex flex-col items-center justify-center gap-6" data-aos="fade-left">
+                    <div class="bg-slate-900/80 border border-emerald-500/20 rounded-2xl p-6 sm:p-8 text-center w-full">
+                        <div class="w-16 h-16 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mx-auto mb-4">
+                            <i class="bi bi-calendar-week text-3xl"></i>
+                        </div>
+                        <h3 class="text-white font-display font-bold text-lg mb-2">1 semana de prueba</h3>
+                        <p class="text-slate-400 text-sm mb-4">Sin costo · Sin compromiso · Sin letra pequeña</p>
+                        <div class="space-y-2 text-left mb-6">
+                            <div class="flex items-center gap-2 text-sm text-slate-300">
+                                <i class="bi bi-check-lg text-emerald-400"></i> 5 días hábiles de soporte real
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-slate-300">
+                                <i class="bi bi-check-lg text-emerald-400"></i> Atención presencial o remota
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-slate-300">
+                                <i class="bi bi-check-lg text-emerald-400"></i> Diagnóstico de tu infraestructura
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-slate-300">
+                                <i class="bi bi-check-lg text-emerald-400"></i> Informe de recomendaciones
+                            </div>
+                        </div>
+                        <a href="#contacto" class="cta-pulse w-full flex items-center justify-center gap-2 bg-[rgb(27,146,208)] text-white font-bold px-6 py-3.5 rounded-xl hover:bg-[rgb(27,146,208)]/80 transition-all text-sm">
+                            <i class="bi bi-calendar-check"></i> Solicitar semana de prueba
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 10. FORMULARIO ======================== -->
     <section id="contacto" class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[150px]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[rgb(27,146,208)]/5 rounded-full blur-[150px]"></div>
         <div class="container mx-auto px-4 sm:px-6 max-w-4xl relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-center">
 
-                <!-- Left -->
+                <!-- Left: Urgencia -->
                 <div data-aos="fade-right">
                     <h2 class="text-2xl sm:text-3xl font-display font-bold text-white mb-4">
                         No esperes a que <span class="text-red-400">todo se detenga.</span>
@@ -322,6 +531,22 @@
                     <p class="text-slate-400 text-sm mb-5">
                         Cada minuto sin soporte técnico confiable pone en riesgo tu productividad. Terceriza tu TI con profesionales que garantizan continuidad operativa.
                     </p>
+
+                    <div class="space-y-3 mb-5">
+                        <div class="flex items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-emerald-400"></i>
+                            <p class="text-slate-300 text-sm">Respuesta garantizada en menos de 15 minutos</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-emerald-400"></i>
+                            <p class="text-slate-300 text-sm">Primera semana de prueba sin costo</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-emerald-400"></i>
+                            <p class="text-slate-300 text-sm">Sin contratos de permanencia obligatorios</p>
+                        </div>
+                    </div>
+
                     <div class="bg-red-500/5 border border-red-500/15 rounded-xl p-4">
                         <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-2">
                             <i class="bi bi-exclamation-triangle-fill mr-1"></i> Dato real
@@ -332,7 +557,8 @@
 
                 <!-- Right: Form -->
                 <div class="rounded-2xl bg-slate-900/80 border border-slate-800 p-5 sm:p-6 backdrop-blur" data-aos="fade-left">
-                    <h3 class="text-lg font-display font-bold text-white mb-4 text-center">Cotizar soporte TI</h3>
+                    <h3 class="text-lg font-display font-bold text-white mb-1 text-center">Cotizar soporte TI</h3>
+                    <p class="text-slate-500 text-xs text-center mb-4">Más de 30 empresas ya gestionan su TI con Cybertec</p>
                     
                     <form id="formSoporte" class="space-y-4">
                         <div>
@@ -355,12 +581,17 @@
                                 <option value="Soporte remoto">Soporte remoto</option>
                                 <option value="Outsourcing de TI completo">Outsourcing de TI completo</option>
                                 <option value="Mantenimiento preventivo">Mantenimiento preventivo</option>
+                                <option value="Semana de prueba gratuita">Semana de prueba gratuita</option>
                             </select>
                         </div>
 
-                        <button type="submit" class="w-full flex items-center justify-center gap-2 bg-emerald-500 text-white font-bold px-6 py-4 rounded-xl hover:bg-emerald-600 transition-all text-sm sm:text-base mt-2">
+                        <button type="submit" class="cta-pulse w-full flex items-center justify-center gap-2 bg-emerald-500 text-white font-bold px-6 py-4 rounded-xl hover:bg-emerald-600 transition-all text-sm sm:text-base mt-2">
                             <i class="bi bi-whatsapp text-lg"></i> Solicitar cotización
                         </button>
+
+                        <div class="text-center">
+                            <span class="guarantee-badge"><i class="bi bi-shield-lock-fill"></i> Tus datos están seguros · No spam</span>
+                        </div>
 
                         <div class="relative flex items-center gap-3 mt-4">
                             <div class="flex-1 h-px bg-slate-700"></div>
@@ -373,6 +604,103 @@
                         </a>
                     </form>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 11. FAQ ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 max-w-3xl">
+            <div class="text-center mb-8" data-aos="fade-up">
+                <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">
+                    Preguntas <span class="text-emerald-400">frecuentes</span>
+                </h2>
+            </div>
+
+            <div class="space-y-3" data-aos="fade-up" data-aos-delay="80">
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <span class="text-white text-sm font-bold">¿Cuál es el tiempo de respuesta ante un incidente?</span>
+                        <i class="bi bi-plus-lg text-[rgb(27,146,208)] faq-icon"></i>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-content-inner">
+                            <p class="text-slate-400 text-sm">Nuestro ANS garantiza primera respuesta en <strong class="text-white">menos de 15 minutos</strong> para incidentes críticos. Para incidentes generales, el tiempo de atención es de máximo 1 hora. Todo queda registrado y medido en nuestra plataforma GLPI.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <span class="text-white text-sm font-bold">¿El soporte es presencial o remoto?</span>
+                        <i class="bi bi-plus-lg text-[rgb(27,146,208)] faq-icon"></i>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-content-inner">
+                            <p class="text-slate-400 text-sm">Ofrecemos ambas modalidades. El <strong class="text-white">service desk presencial</strong> incluye técnicos dedicados en tu empresa. El <strong class="text-white">soporte remoto</strong> permite resolver el 70% de los incidentes sin necesidad de desplazamiento, con conexión inmediata por escritorio remoto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <span class="text-white text-sm font-bold">¿Qué incluye el outsourcing de TI?</span>
+                        <i class="bi bi-plus-lg text-[rgb(27,146,208)] faq-icon"></i>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-content-inner">
+                            <p class="text-slate-400 text-sm">El outsourcing completo incluye: personal técnico dedicado, service desk (presencial y/o remoto), mantenimiento preventivo y correctivo de equipos, administración de firewalls y red, outsourcing de impresión, suministro de tóners y repuestos, y <strong class="text-white">reportes mensuales de gestión</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <span class="text-white text-sm font-bold">¿Hay contrato de permanencia?</span>
+                        <i class="bi bi-plus-lg text-[rgb(27,146,208)] faq-icon"></i>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-content-inner">
+                            <p class="text-slate-400 text-sm">No exigimos permanencia mínima obligatoria. Trabajamos con contratos flexibles porque confiamos en la calidad del servicio. <strong class="text-white">Te quedas porque quieres, no porque tienes que hacerlo.</strong> Ofrecemos una semana de prueba sin costo para que evalúes antes de comprometerte.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <span class="text-white text-sm font-bold">¿Cómo se gestionan los tickets?</span>
+                        <i class="bi bi-plus-lg text-[rgb(27,146,208)] faq-icon"></i>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-content-inner">
+                            <p class="text-slate-400 text-sm">Utilizamos <strong class="text-white">GLPI</strong>, una plataforma profesional de gestión de servicios de TI. Cada incidente se registra, se le asigna prioridad, se da seguimiento y se cierra con documentación. Tienes un portal web donde puedes crear tickets y ver el estado de tus solicitudes en tiempo real.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== 12. CIERRE EMOCIONAL ======================== -->
+    <section class="relative py-10 lg:py-14 overflow-hidden border-t border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-b from-emerald-500/[0.02] to-transparent"></div>
+        <div class="container mx-auto px-4 sm:px-6 max-w-3xl relative z-10 text-center" data-aos="fade-up">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-display font-bold text-white mb-4">
+                Deja de apagar incendios. <span class="text-emerald-400">Empieza a prevenir.</span>
+            </h2>
+            <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mb-6">
+                Las empresas más productivas no resuelven más problemas — <strong class="text-white">tienen menos problemas porque tienen soporte profesional.</strong> Hoy es el mejor día para dar ese paso.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                <a href="#contacto" class="cta-pulse inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-[rgb(27,146,208)] text-white font-bold hover:bg-[rgb(27,146,208)]/80 transition-all text-sm shadow-lg shadow-[rgb(27,146,208)]/20">
+                    <i class="bi bi-headset"></i> Solicitar cotización ahora
+                </a>
+                <a href="https://wa.me/573175133375?text=Hola%20Cybertec%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20empresa." class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-white font-bold hover:border-green-500/40 transition-all text-sm" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp text-green-400"></i> Hablar por WhatsApp
+                </a>
+            </div>
+            <div class="mt-5">
+                <span class="guarantee-badge"><i class="bi bi-shield-lock-fill"></i> Semana de prueba gratis · Sin compromiso · Respuesta en 15 min</span>
             </div>
         </div>
     </section>
@@ -391,16 +719,23 @@
         </div>
     </footer>
 
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/573175133375?text=Hola%20Cybertec%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20empresa." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
     <!-- AOS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init({ duration: 700, offset: 40, easing: 'ease-out-cubic', once: true });
 
+        // Nav scroll
         window.addEventListener('scroll', function() {
             var nav = document.getElementById('main-nav');
             nav.querySelector('.absolute').style.background = window.scrollY > 40 ? 'rgba(2,6,23,0.92)' : '';
         });
 
+        // Form → WhatsApp
         document.getElementById('formSoporte').addEventListener('submit', function(e) {
             e.preventDefault();
             var nombre = document.getElementById('stNombre').value.trim();
@@ -414,6 +749,16 @@
                 'Teléfono: ' + telefono + '\n' +
                 'Servicio: ' + servicio;
             window.open('https://wa.me/573175133375?text=' + encodeURIComponent(msg), '_blank');
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-trigger').forEach(function(trigger) {
+            trigger.addEventListener('click', function() {
+                var item = this.closest('.faq-item');
+                var isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('active'); });
+                if (!isActive) item.classList.add('active');
+            });
         });
     </script>
 </body>
